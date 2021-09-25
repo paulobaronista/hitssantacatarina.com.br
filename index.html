@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="dist/lity.css">
+
+    <title>Hits</title>
+</head>
+
+<body>
+
+    <header class="rellax">
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="images/FRAME 01.png">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/FRAME 02.png">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/FRAME 03.png">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/FRAME 04.png">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/FRAME 05.png">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/FRAME 06.png">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/FRAME 07.png">
+                </div>
+            </div>
+        </div>
+
+        <form action="">
+            <h2>Quer viver bem?<br>Fale com a gente</h2>
+
+            <div class="fieldset">
+                <input type="text" name="name" id="name" placeholder="NOME">
+            </div>
+            <div class="fieldset">
+                <input type="email" name="email" id="email" placeholder="E-MAIL">
+            </div>
+            <div class="fieldset">
+                <input type="phone" name="phone" id="phone" placeholder="TELEFONE">
+            </div>
+            <div class="fieldset">
+                <input type="text" name="time" id="time" placeholder="QUANDO PRETENDE COMPRAR UM IMÓVEL?">
+            </div>
+            <div class="fieldset">
+                <textarea name="name" id="" cols="30" rows="5" placeholder="SUA MENSAGEM">Quero mais informações sobre o HITS VILA SANTA CATARINA</textarea>
+            </div>
+
+            <input type="submit" value="Enviar">
+
+            <div style="margin-top: 1rem; display: flex; justify-content: center;">
+                <a href="https://m.facebook.com/tsincorporacaoeconstrucao" target="_blank" class="links"><img src="images/icon-facebook@2x.png" alt=""></a>
+                <a href="https://instagram.com/tranchesisadek?utm_medium=copy_link" target="_blank" class="links"><img src="images/icon-instagram@2x.png" alt=""></a>
+                <a href="#" target="_blank" class="links"><img src="images/icon-phone@2x.png" alt=""></a>
+                <a href="#" target="_blank" class="links"><img src="images/icon-whatsapp@2x.png" alt=""></a>
+                <a href="#" target="_blank" class="links"><img src="images/icon-chat@2x.png" alt=""></a>
+            </div>
+        </form>
+    </header>
+    <main>
+
+
+
+        <section class="hero">
+            <div class="hero-container">
+
+                <div id="banner">
+                    <div id="circles">
+                        <img id="dots" class="rellax" src="images/dots@4x.png" data-rellax-zindex="-10" alt="">
+                        <img id="dorms" class="rellaxx" src="images/dorms@2x.png" data-rellax-zindex="10" alt="">
+                        <img id="casa" class="rellaxx" src="images/casa@2x.png" data-rellax-zindex="20" alt="">
+                    </div>
+                    <div>
+                        <img id="hits" class="rellaxx" src="images/hits@2x.png" data-rellax-zindex="30" alt="">
+                    </div>
+                </div>
+                <img id="arrows" class="rellax" src="images/arrows@4x.png" data-rellax-zindex="-5" alt="">
+                <img id="x" class="rellax" src="images/x.png" data-rellax-zindex="-20" alt="">
+            </div>
+        </section>
+
+        <section>
+            <img src="images/waze@2x.png" id="waze" alt="">
+
+            <hr>
+
+            <p id="endereco">
+                Local do empreendimento:<br><strong style="color: #e94e1f;"> Emílio de Souza Docca, 149</strong></strong><br> Vila Santa Catarina
+            </p>
+
+        </section>
+
+        <footer>
+            <div><img src="images/footer-a@2x.png" alt=""></div>
+            <div class="spacer"></div>
+            <div><img src="images/footer-b@2x.png" alt=""></div>
+            <div class="spacer"></div>
+            <div><img src="images/footer-c@2x.png" alt=""></div>
+        </footer>
+        <p class="disclaimer" style="margin-bottom: 4rem; text-align: center;">o empreendimento só será comercializado após a expedição do RI. Imagens meramente ilustrativas. Futuras Vendas: Itaplan - R. Ministro Jesuíno Cardoso, 633 Cj. 42 - Vila Nova Conceição - CRECI J-33051 e TS Intermediações imobiliárias - R. Costa
+            Carvalho 148 - Pinheiros CRECI 216363</p>
+    </main>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script type="dist/lity.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+
+    <script>
+        var rellax = new Rellax('.rellax', {
+            speed: -2,
+            center: false,
+            wrapper: null,
+            round: false,
+            vertical: true,
+            horizontal: false
+        });
+
+        $('.gallery').slick({
+            infinite: true,
+            speed: 300,
+            autoplay: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplaySpeed: 3000,
+            arrows: true,
+        });
+    </script>
+
+</body>
+
+</html>
