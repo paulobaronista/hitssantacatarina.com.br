@@ -1,0 +1,79 @@
+.menu {
+  width: 100%;
+  position: fixed;
+  background-color: #ffffff;
+  border-color: transparent;
+  min-height: auto;
+  margin-bottom: 0px;
+  border: 0px solid transparent;
+  z-index: 200;
+  border-radius: 0px;
+}
+
+.menu .navbar-brand {
+  height: auto;
+  padding: 8px 0 0 0;
+}
+
+.menu .navbar-nav {
+  float: none;
+  margin: 0 auto;
+  display: table;
+  table-layout: fixed;
+}
+
+.menu .navbar-nav li > a {
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  color: #000000;
+  text-transform: uppercase;
+  font-family: 'ITC Avant Garde Gothic Std Book';
+  font-weight: normal;
+  font-style: normal;
+  padding: 23px 7px 20px;
+}
+
+.menu .navbar-nav li > a:focus,
+.menu .navbar-nav li > a:hover {
+  color: #474f73;
+}
+
+.navbar-toggle {
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.menu .navbar-toggle {
+  border-color: #474f73;
+}
+
+.menu .navbar-toggle:focus,
+.menu .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .menu .navbar-nav {
+    margin: 10px -15px 7.5px;
+  }
+  .menu .navbar-nav li > a {
+    padding: 15px 20px;
+    color: #fff;
+  }
+  .menu .navbar-nav li > a:focus,
+  .menu .navbar-nav li > a:hover {
+    color: #ffffff;
+  }
+  .menu .navbar-collapse,
+  .menu .navbar-form {
+    border-color: transparent;
+    background-color: #474f73;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=menu.css.map */

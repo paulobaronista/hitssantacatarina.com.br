@@ -1,0 +1,97 @@
+footer {
+  position: relative;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+footer figcaption {
+  font-family: 'ITC Avant Garde Gothic Std Book';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 12px;
+  margin-bottom: 10px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+footer .texto-legal {
+  margin-top: 20px;
+}
+
+footer .texto-legal p {
+  font-family: 'ITC Avant Garde Gothic Std Book';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 15px;
+  color: #000000;
+}
+
+footer .texto-legal p a {
+  color: #000000;
+}
+
+footer .texto-legal .navbar-nav {
+  float: none;
+  margin: 0 auto;
+  display: table;
+  table-layout: fixed;
+}
+
+footer .texto-legal .navbar-nav li {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+footer .texto-legal .navbar-nav li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'ITC Avant Garde Gothic Std Book';
+  font-weight: normal;
+  font-style: normal;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 10px;
+  border-right: 1px solid #000;
+}
+
+footer .texto-legal .navbar-nav li > a:focus,
+footer .texto-legal .navbar-nav li > a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+footer .texto-legal .navbar-nav li:last-child a {
+  border-right: 0px solid transparent;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  footer {
+    position: relative;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  footer figure .coelho-da-fonseca {
+    max-width: 40%;
+  }
+  footer figure .nr {
+    max-width: 25%;
+  }
+  footer .texto-legal .navbar-nav {
+    width: 100%;
+  }
+  footer .texto-legal .navbar-nav li > a {
+    padding: 0;
+    border-right: 0px solid transparent;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=footer.css.map */
