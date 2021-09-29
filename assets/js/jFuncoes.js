@@ -86,14 +86,16 @@ $(function(){
 	$('.nome').clear();
 	$('.email').clear();
 	$('.phone').clear();
+    $('.imovel').clear();
 	$('.msg').clear();
 
 	$('.btn_enviar').on('click', function(){
-		var n, e, t, m;
+		var n, e, t, m, i;
 		var msg = "";
 		n = $('.nome').val();
 		e = $('.email').val();
 		t = $('.phone').val();
+        i = $('.imovel').val();
 		m = $('.msg').val();
 		});
 });

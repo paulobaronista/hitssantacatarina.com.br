@@ -95,7 +95,7 @@ if (isset($email_enviado))
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
         <div class="col-xs-12 col-sm-9 col-md-9">
             <p>
-                Este site utiliza cookies para melhorar sua experiência de navegação, permitir um início de sessão seguro, recolher estatísticas e oferecer conteúdo adequado aos seus interesses. Ao continuar sua navegação, considera-se aceito nossos e a nossa <a href="<?php echo base_url(); ?>politicadeprivacidade">Política de Privacidade</a>.
+                Este site utiliza cookies para melhorar sua experiência de navegação, permitir um início de sessão seguro, recolher estatísticas e oferecer conteúdo adequado aos seus interesses. Ao continuar sua navegação, considera-se aceito nossos e a nossa Política de Privacidade<!--<a href="<?php echo base_url(); ?>politicadeprivacidade">Política de Privacidade</a>-->.
             </p>
         </div>
         <div class="col-xs-12 col-sm-3 col-md-3">
