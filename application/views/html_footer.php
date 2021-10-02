@@ -37,6 +37,20 @@ echo script_tag('assets/js/bootstrap.min.js');
     <a href="#" target="_blank" class="whats">Whatsapp</a>
 </div> -->
 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BBVRGNKQ6J"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-BBVRGNKQ6J');
+</script>
+
 </body>
 
 </html>
