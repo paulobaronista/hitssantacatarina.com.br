@@ -1,11 +1,11 @@
 $(document).on('ready', function () {
     $(".glr-home").slick({
         dots: false,
-		arrows: false,
+        arrows: false,
         infinite: true,
         speed: 500,
-		fade: true,
-		cssEase: 'linear',
+        fade: true,
+        cssEase: 'linear',
         autoplay: true,
         autoplaySpeed: 5000,
     });
@@ -24,23 +24,23 @@ $(document).on('ready', function () {
 });
 
 $(document).ready(function () {
-	$("#close").click(function () {
-		$("#aviso").hide();
-		window.location.href = "https://hitssantacatarina.com.br/"
-	});
+    $("#close").click(function () {
+        $("#aviso").hide();
+        window.location.href = "https://hitssantacatarina.com.br/"
+    });
 });
 
 $(document).ready(function () {
-	$('#cookies').show();
-	if (window.localStorage.getItem('accept_cookies')) {
-		$('#cookies').hide();
-		return false;
-	}
-	$(".btn_cookie").click(function () {
-		window.localStorage.setItem('accept_cookies', true);
-		$('#cookies').hide();
-		return false;
-	});
+    $('#cookies').show();
+    if (window.localStorage.getItem('accept_cookies')) {
+        $('#cookies').hide();
+        return false;
+    }
+    $(".btn_cookie").click(function () {
+        window.localStorage.setItem('accept_cookies', true);
+        $('#cookies').hide();
+        return false;
+    });
 });
 
 // Script Scroll OnPage
@@ -82,20 +82,29 @@ $(document).on('ready', function () {
     });
 });
 
-$(function(){
-	$('.nome').clear();
-	$('.email').clear();
-	$('.phone').clear();
+$(function () {
+    $('.nome').clear();
+    $('.email').clear();
+    $('.phone').clear();
     $('.imovel').clear();
-	$('.msg').clear();
+    $('.msg').clear();
 
-	$('.btn_enviar').on('click', function(){
-		var n, e, t, m, i;
-		var msg = "";
-		n = $('.nome').val();
-		e = $('.email').val();
-		t = $('.phone').val();
+    $('.btn_enviar').on('click', function () {
+        var n, e, t, m, i;
+        var msg = "";
+        n = $('.nome').val();
+        e = $('.email').val();
+        t = $('.phone').val();
         i = $('.imovel').val();
-		m = $('.msg').val();
-		});
+        m = $('.msg').val();
+
+        if (n !== '' && e !== '' & t !== '' && i !== '' && m !== '') {
+            $(".btn_enviar").attr('disabled', 'disabled');
+            setTimeout(function() { 
+                $(".btn-trigger").trigger('click');
+            }, 2000);
+        }
+
+    });
+
 });

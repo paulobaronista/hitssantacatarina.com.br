@@ -30,7 +30,7 @@ class Contato extends CI_Controller
 
             $this->email->from("contato@hitssantacatarina.com.br", "Hits Santa Catarina");
             $this->email->to('contato@hitssantacatarina.com.br');
-            $this->email->cc('front.baronista@gmail.com, renata@spicycomm.com.br');
+            $this->email->cc('front.baronista@gmail.com, renata@spicycomm.com.br, alebertone@spicycomm.com.br');
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
             <head> <meta http-equiv='content-type' content='text/html;charset=UTF-8' /> </head><body>
@@ -41,8 +41,40 @@ class Contato extends CI_Controller
                             Mensagem:	{$mensagem}<br/>
                                 </body></html>");
 
+            $this->email->send();
+
             if ($this->email->send()) {
-                redirect('contato/obrigado');
+
+                $dadosLead = array(
+                    // 'nome' => $nome,
+                    // 'email' => $email,
+                    // 'telefone' =>  $telefone,
+                    // 'Quando pretende comprar um imóvel' =>  $imovel,
+                    // 'Mensagem' =>  $mensagem,
+                    $facilita_custom_page = 'HITS Santa Catarina | Formulário Geral',
+                    $facilita_custom_url = 'https://hitssantacatarina.com.br/',
+                    $facilita_custom_selector = '#hitssantacatarina'
+                );
+
+                $dadosLead = json_encode($dadosLead);
+
+                $cabecalho = array(
+                    'Content-Type: application/json',
+                    'Content-Length: ' . strlen($dadosLead)
+                );
+
+                $url = 'https://tsengenharia.api.facilitavendas.com/public/trackerform';
+
+                echo '<br><hr><h2>'.$this->post($url, $dadosLead, $cabecalho).'</h2><br><hr><br>';
+
+                $curlHandler = curl_init();
+                curl_setopt($curlHandler, CURLOPT_URL, $url);
+                curl_setopt($curlHandler, CURLOPT_POSTFIELDS, $dadosLead);
+                curl_setopt($curlHandler, CURLOPT_RETURNTRANSFER, TRUE);
+                curl_setopt($curlHandler, CURLOPT_HTTPHEADER, $cabecalho);
+                $retorno = curl_exec($curlHandler);
+
+                echo (is_callable('curl_init')) ? curl_exec($curlHandler)  : '<h1>Not enabled</h1>';
             } else {
                 redirect('contato/fail');
             }

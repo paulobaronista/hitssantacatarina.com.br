@@ -24,24 +24,25 @@
             </div>
         </div>
     </div>
-    <form method="post" role="form" action="<?php echo base_url("contato") ?>">
+    <form method="post" role="form" id="hitssantacatarina" action="<?php echo base_url("contato") ?>">
         <h2>Quer viver bem?<br>Fale com a gente</h2>
         <div class="fieldset">
-            <input id="nome" type="text" class="nome form-control" name="nome" required="required" placeholder="NOME*" />
+            <input id="nome" type="text" class="nome" name="nome" required="required" placeholder="NOME*" />
         </div>
         <div class="fieldset">
-            <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="E-MAIL*" />
+            <input id="email" type="email" class="email" name="email" required="required" placeholder="E-MAIL*" />
         </div>
         <div class="fieldset">
-            <input id="telefone" class="phone form-control" type="tel" name="phone" placeholder="TELEFONE" />
+            <input id="telefone" class="phone" type="tel" name="phone" required="required" placeholder="TELEFONE*" />
         </div>
         <div class="fieldset">
-            <input id="imovel" class="imovel form-control" type="text" name="imovel" placeholder="QUANDO PRETENDE COMPRAR UM IMÓVEL?" />
+            <input id="imovel" class="imovel" type="text" name="imovel" required="required" placeholder="QUANDO PRETENDE COMPRAR UM IMÓVEL?*" />
         </div>
         <div class="fieldset">
-            <textarea id="form-mensagem" class="msg form-control" cols="30" rows="5" name="mss" placeholder="SUA MENSAGEM">Quero mais informações sobre o HITS VILA SANTA CATARINA</textarea>
+            <textarea id="form-mensagem" class="msg" cols="30" rows="5" name="mss" placeholder="SUA MENSAGEM">Quero mais informações sobre o HITS VILA SANTA CATARINA</textarea>
         </div>
         <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar">Enviar</button>
+        <button style="display: none;" type="submit" class="btn-trigger" title="enviar" name="enviar_email" value="enviar">Enviar</button>
         <div style="margin-top: 1rem; display: flex; justify-content: center;">
             <a href="https://m.facebook.com/tsincorporacaoeconstrucao" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-facebook@2x.png" alt=""></a>
             <a href="https://instagram.com/tranchesisadek?utm_medium=copy_link" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-instagram@2x.png" alt=""></a>
