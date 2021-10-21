@@ -9,6 +9,7 @@ echo script_tag('assets/js/bootstrap.min.js');
 ?>
 
 <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/jquery.inputmask.bundle.js"></script>
 
 <script>
     var rellax = new Rellax('.rellax', {
@@ -66,7 +67,7 @@ echo script_tag('assets/js/bootstrap.min.js');
                 i: 'tsengenharia'
             });
         });
-    }());
+    }()); 
 </script>
 
 </body>

@@ -41,13 +41,12 @@
         <div class="fieldset">
             <textarea id="form-mensagem" class="msg" cols="30" rows="5" name="mss" placeholder="SUA MENSAGEM">Quero mais informações sobre o HITS VILA SANTA CATARINA</textarea>
         </div>
-        <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar">Enviar</button>
-        <button style="display: none;" type="submit" class="btn-trigger" title="enviar" name="enviar_email" value="enviar">Enviar</button>
+        <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar">Validar</button>
         <div style="margin-top: 1rem; display: flex; justify-content: center;">
             <a href="https://m.facebook.com/tsincorporacaoeconstrucao" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-facebook@2x.png" alt=""></a>
             <a href="https://instagram.com/tranchesisadek?utm_medium=copy_link" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-instagram@2x.png" alt=""></a>
-            <a href="#" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-phone@2x.png" alt=""></a>
-            <a href="#" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-whatsapp@2x.png" alt=""></a>
+            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511998039252" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-phone@2x.png" alt=""></a>
+            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511998039252" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-whatsapp@2x.png" alt=""></a>
             <a href="#" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-chat@2x.png" alt=""></a>
         </div>
     </form>
@@ -73,7 +72,7 @@
         <img src="<?= base_url(); ?>assets/images/waze@2x.png" id="waze" alt="">
         <hr>
         <p id="endereco">
-            Local do empreendimento:<br><strong style="color: #e94e1f;"> Emílio de Souza Docca, 149</strong></strong><br> Vila Santa Catarina
+            Local do empreendimento:<br>RUA 8 DE MARÇO ESQUINA COM <strong style="color: #e94e1f;"><br/> Emílio de Souza Docca, 149</strong></strong><br> Vila Santa Catarina
         </p>
     </section>
     <footer>

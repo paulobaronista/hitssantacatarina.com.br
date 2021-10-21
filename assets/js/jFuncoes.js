@@ -99,12 +99,13 @@ $(function () {
         m = $('.msg').val();
 
         if (n !== '' && e !== '' & t !== '' && i !== '' && m !== '') {
-            $(".btn_enviar").attr('disabled', 'disabled');
-            setTimeout(function() { 
-                $(".btn-trigger").trigger('click');
-            }, 2000);
+            $(".btn_enviar").text('ENVIAR');
+            $(".btn_enviar").css("background-color","#209916");
+            $(".btn_enviar").css('border', "2px solid #16740e");
         }
 
     });
+
+    $('.phone').inputmask({"mask": "(99) 999999999"});
 
 });
