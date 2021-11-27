@@ -33,3 +33,22 @@
         </div>
     </div>
 </div>
+
+<!-- Video -->
+<div class="modal fade modalVideo" id="modalVideo" tabindex="-1" role="dialog" aria-labelledby="modalVideoLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <div class="modal-body">
+                <div class="box-video">
+                    <video width="100%" height="auto" controls>
+                        <source src="<?= base_url(); ?>assets/video/video.mp4" type="video/mp4">
+                        <source src="<?= base_url(); ?>assets/video/video.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

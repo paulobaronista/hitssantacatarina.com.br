@@ -95,20 +95,11 @@
             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                 <div class="galeria">
                     <section class="glr-projeto slider">
-                        <!-- <div>
-                            <div class="box-video">
-                                <video width="100%" height="auto" controls>
-                                    <source src="<?= base_url(); ?>assets/video/video.mp4" type="video/mp4">
-                                    <source src="<?= base_url(); ?>assets/video/video.ogg" type="video/ogg">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                        </div> -->
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-01.png" alt="Hits Santa Catarina">
                         </div>
                         <div>
-                            <a href="">
+                            <a href="#" data-toggle="modal" data-target="#modalVideo">
                                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-video.png" alt="Hits Santa Catarina">
                             </a>
                         </div>
@@ -349,13 +340,13 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logos.png" alt="Hits Santa Catarina">
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
+                <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
                     <ul class="nav navbar-nav">
                         <li><a href="<?php echo base_url(); ?>">Home</a></li>
                         <li><a href="<?php echo base_url(); ?>politicadeprivacidade">Política de privacidade</a></li>
-                        <!-- <li><a href="<?php echo base_url(); ?>politicadecookies">Termos e Condições de Uso do Site</a></li> -->
+                        <li><a href="<?php echo base_url(); ?>politicadecookies">Termos e Condições de Uso do Site</a></li>
                     </ul>
-                </div>
+                </div> -->
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off texto-legal">
                     <p>
                         O empreendimento só será comercializado após a expedição do RI. Todas as perspectivas, decoração e vegetação são meramente

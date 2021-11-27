@@ -17,6 +17,10 @@ footer .txt p {
   margin-bottom: 20px;
 }
 
+footer .texto-legal {
+  margin-top: 10px;
+}
+
 footer .texto-legal p {
   font-family: 'Futura Std';
   font-style: normal;

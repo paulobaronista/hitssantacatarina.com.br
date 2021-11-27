@@ -315,13 +315,15 @@ p {
 
 .modalFichaTecnica,
 .modalImplantacao,
-.modalLocalizacao {
+.modalLocalizacao,
+.modalVideo {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modalFichaTecnica .modal-content,
 .modalImplantacao .modal-content,
-.modalLocalizacao .modal-content {
+.modalLocalizacao .modal-content,
+.modalVideo .modal-content {
   background-color: #ffcb00;
   border: 0px solid transparent;
   -webkit-box-shadow: none;
@@ -330,13 +332,15 @@ p {
 
 .modalFichaTecnica .modal-body,
 .modalImplantacao .modal-body,
-.modalLocalizacao .modal-body {
+.modalLocalizacao .modal-body,
+.modalVideo .modal-body {
   padding: 8px;
 }
 
 .modalFichaTecnica .close,
 .modalImplantacao .close,
-.modalLocalizacao .close {
+.modalLocalizacao .close,
+.modalVideo .close {
   font-size: 27px;
   color: #fff;
   text-shadow: none;
@@ -350,7 +354,8 @@ p {
 @media (min-width: 768px) {
   .modalFichaTecnica .modal-dialog,
   .modalImplantacao .modal-dialog,
-  .modalLocalizacao .modal-dialog {
+  .modalLocalizacao .modal-dialog,
+  .modalVideo .modal-dialog {
     margin: 6% auto 0;
   }
 }
@@ -376,12 +381,14 @@ p {
   }
   .modalFichaTecnica .modal-dialog,
   .modalImplantacao .modal-dialog,
-  .modalLocalizacao .modal-dialog {
+  .modalLocalizacao .modal-dialog,
+  .modalVideo .modal-dialog {
     margin: 25% auto 0;
   }
   .modalFichaTecnica .close,
   .modalImplantacao .close,
-  .modalLocalizacao .close {
+  .modalLocalizacao .close,
+  .modalVideo .close {
     top: -30px;
     right: 5px;
   }

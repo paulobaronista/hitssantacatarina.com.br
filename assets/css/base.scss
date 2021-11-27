@@ -308,7 +308,8 @@ p {
 
 .modalFichaTecnica,
 .modalImplantacao,
-.modalLocalizacao {
+.modalLocalizacao,
+.modalVideo {
     background-color: rgba(0, 0, 0, 0.5);
 
     .modal-content {
@@ -337,7 +338,8 @@ p {
 
     .modalFichaTecnica,
     .modalImplantacao,
-    .modalLocalizacao {
+    .modalLocalizacao,
+    .modalVideo {
         .modal-dialog {
             margin: 6% auto 0;
         }
@@ -375,7 +377,8 @@ p {
 
     .modalFichaTecnica,
     .modalImplantacao,
-    .modalLocalizacao {
+    .modalLocalizacao,
+    .modalVideo {
         .modal-dialog {
             margin: 25% auto 0;
         }

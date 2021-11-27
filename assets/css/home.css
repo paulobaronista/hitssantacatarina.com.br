@@ -95,28 +95,6 @@
   float: right;
 }
 
-.projeto .box-video {
-  background-color: #474747;
-  border: solid 5px #e84e1e;
-  border-radius: 50px;
-  width: 80%;
-  margin: 0 auto;
-}
-
-.projeto .box-video video {
-  display: inline-block;
-  vertical-align: baseline;
-  -webkit-border-radius: 44px;
-  -webkit-border-bottom-right-radius: 38px;
-  -webkit-border-bottom-left-radius: 38px;
-  -moz-border-radius: 44px;
-  -moz-border-radius-bottomright: 38px;
-  -moz-border-radius-bottomleft: 38px;
-  border-radius: 44px;
-  border-bottom-right-radius: 38px;
-  border-bottom-left-radius: 38px;
-}
-
 .implantacao {
   background: url(../images/bg-5.jpg) no-repeat;
   background-position: center center;
@@ -198,9 +176,6 @@
     background-size: cover;
     padding-top: 20px;
     padding-bottom: 20px;
-  }
-  .projeto .box-video {
-    width: 100%;
   }
   .projeto .galeria {
     margin-bottom: 10px;
