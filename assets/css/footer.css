@@ -1,0 +1,152 @@
+footer {
+  background: url(../images/bg-4.jpg) no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+footer .txt p {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: normal;
+  color: #1d1d1b;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+footer .texto-legal p {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: normal;
+  color: #1d1d1b;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: justify;
+}
+
+footer .ctas {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer .ctas .cta-waze {
+  margin-top: 9px;
+}
+
+footer .local {
+  display: block;
+  margin-bottom: 10px;
+}
+
+footer .local .col-g {
+  display: inline-table;
+}
+
+footer .local .col-g p {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+footer .local .col-g .col-g-a p {
+  color: #662482;
+}
+
+footer .local .col-g .col-g-b p {
+  color: #e84e1e;
+  padding-left: 5px;
+}
+
+footer .local .col-g .col-g-c p {
+  color: #868686;
+  font-weight: 300;
+  padding-left: 5px;
+  margin-top: 5px;
+}
+
+footer .navbar-nav li {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+footer .navbar-nav li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: 500;
+  color: #1d1d1b;
+  font-size: 10px;
+  line-height: 10px;
+  border-right: 1px solid #1d1d1b;
+  text-transform: uppercase;
+}
+
+footer .navbar-nav li > a:focus,
+footer .navbar-nav li > a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+footer .navbar-nav li:first-child a {
+  padding-left: 0;
+}
+
+footer .navbar-nav li:last-child a {
+  border-right: 0px solid transparent;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  footer {
+    background: #f4f4f4;
+    padding-top: 20px;
+  }
+  footer .txt p {
+    color: #1d1d1b;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  footer .ctas .cta-waze {
+    margin-top: 0px;
+  }
+  footer .local {
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  footer .local .col-g p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  footer .local .col-g .col-g-b p {
+    padding-left: 0px;
+  }
+  footer .local .col-g .col-g-c p {
+    padding-left: 0px;
+    margin-top: 0;
+  }
+  footer .navbar-nav {
+    margin-top: 0;
+  }
+  footer .navbar-nav li:first-child a {
+    padding-left: 15px;
+  }
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  footer .local {
+    text-align: center;
+  }
+}
+
+/* Medium */
+/* Large */
+/*# sourceMappingURL=footer.css.map */

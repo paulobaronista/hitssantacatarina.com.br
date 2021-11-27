@@ -1,0 +1,125 @@
+.contato {
+    .container {
+        width: 325px;
+        position: fixed;
+        top: 60px;
+        right: 7%;
+    }
+
+    .tt {
+        padding: 10px 15px;
+        border-radius: 5px;
+        border: 3px solid #ffcb00;
+        background-color: #e84e1e;
+        margin-bottom: 10px;
+
+        p {
+            font-family: 'Futura Std';
+            font-style: normal;
+            font-weight: 900;
+            color: #ffffff;
+            font-size: 19px;
+            line-height: 24px;
+            letter-spacing: 2px;
+        }
+    }
+
+    .group-form {
+        .form-group {
+            padding-left: 2px;
+            padding-right: 2px;
+            margin-bottom: 5px;
+        }
+
+        .form-control {
+            font-family: 'Futura Std';
+            font-style: normal;
+            font-weight: 400;
+            height: 47px;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #e84e1e;
+            background-color: #ffffff;
+            border-radius: 5px;
+            border: 2px solid #ffcb00;
+            box-shadow: none;
+
+            &::-webkit-input-placeholder {
+                color: #e84e1e;
+            }
+
+            &:-ms-input-placeholder {
+                color: #e84e1e;
+            }
+
+            &::placeholder {
+                color: #e84e1e;
+            }
+        }
+
+        textarea {
+            height: 130px !important;
+        }
+
+        .btn_enviar {
+            width: 100%;
+            font-family: 'HelveticaNeue';
+            padding: 8px 20px;
+            margin-bottom: 0;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            border: 3px solid #e94e1f;
+            border-radius: 20px;
+            color: #e94e1f;
+            background-color: #ffcb00;
+            display: table;
+            margin: 10px auto 0;
+            text-transform: uppercase;
+
+        }
+    }
+
+    .redes {
+        display: table;
+        margin: 10px auto 0;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .contato {
+        padding-bottom: 30px;
+        .container {
+            width: 90%;
+            position: relative;
+            top: 10px;
+            right: 0%;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {
+    .contato {
+        .container {
+            width: 500px;
+            position: relative;
+            top: 10px;
+            right: 0%;
+        }
+    }
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {
+    .contato {
+        .container {
+            right: 2%;
+        }
+    }
+}
+
+/* Large */
+@media(min-width:1200px) {}
