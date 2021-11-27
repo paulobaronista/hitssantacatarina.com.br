@@ -95,7 +95,7 @@
             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                 <div class="galeria">
                     <section class="glr-projeto slider">
-                        <div>
+                        <!-- <div>
                             <div class="box-video">
                                 <video width="100%" height="auto" controls>
                                     <source src="<?= base_url(); ?>assets/video/video.mp4" type="video/mp4">
@@ -103,9 +103,35 @@
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
-                        </div>
+                        </div> -->
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-01.png" alt="Hits Santa Catarina">
+                        </div>
+                        <div>
+                            <a href="">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-video.png" alt="Hits Santa Catarina">
+                            </a>
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-02.png" alt="Hits Santa Catarina">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-03.png" alt="Hits Santa Catarina">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-04.png" alt="Hits Santa Catarina">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-05.png" alt="Hits Santa Catarina">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-06.png" alt="Hits Santa Catarina">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-07.png" alt="Hits Santa Catarina">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-08.png" alt="Hits Santa Catarina">
                         </div>
                     </section>
                 </div>
@@ -130,10 +156,10 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/implantacao.png" alt="Hits Santa Catarina">
-                <a class="cta-ficha-tecnica" href="#">
+                <a class="cta-ficha-tecnica" href="#" data-toggle="modal" data-target="#modalFichaTecnica">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cta-ficha-tecnica.png" alt="Hits Santa Catarina">
                 </a>
-                <a class="cta-implantacao" href="#">
+                <a class="cta-implantacao" href="#" data-toggle="modal" data-target="#modalImplantacao">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cta-implantacao.png" alt="Hits Santa Catarina">
                 </a>
             </div>
@@ -246,7 +272,7 @@
                     </div>
                     <div class="col-xs-12 visible-xs margin-top-20"></div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <a href="#">
+                        <a class="cta-implantacao" href="#" data-toggle="modal" data-target="#modalLocalizacao">
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cta-localizacao.png" alt="Hits Santa Catarina">
                         </a>
                     </div>

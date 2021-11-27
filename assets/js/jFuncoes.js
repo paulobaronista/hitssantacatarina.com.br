@@ -13,11 +13,11 @@ $(document).on('ready', function () {
     $(".glr-projeto").slick({
         dots: false,
         infinite: true,
-        speed: 500,
+        speed: 400,
         autoplay: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 4000,
         arrows: true,
     });
 

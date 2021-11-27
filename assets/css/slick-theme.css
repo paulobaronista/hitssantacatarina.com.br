@@ -80,7 +80,7 @@
     width: 35px;
     height: 35px;
     top: 50%;
-    left: 0%;
+    left: 10%;
     background: url(../images/seta-left-2.png) no-repeat;
     background-position: center center;
     background-size: 100%;
@@ -219,7 +219,7 @@
     .glr-projeto .slick-prev:focus {
         width: 20px;
         height: 30px;
-        left: 5%;
+        left: 0%;
     }
 
     .glr-projeto .slick-next,
@@ -227,7 +227,7 @@
     .glr-projeto .slick-next:focus {
         width: 20px;
         height: 30px;
-        right: 5%;
+        right: 0%;
     }
 
     .glr-lazer .slick-prev,
@@ -242,7 +242,7 @@
     .glr-lazer .slick-next:focus {
         width: 20px;
         height: 30px;
-        right: 5%;
+        right: 0%;
     }
 }
 

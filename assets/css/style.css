@@ -398,22 +398,30 @@ p {
   letter-spacing: 1px;
 }
 
-.modalPascoa {
+.modalFichaTecnica,
+.modalImplantacao,
+.modalLocalizacao {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.modalPascoa .modal-content {
-  background-color: #000;
+.modalFichaTecnica .modal-content,
+.modalImplantacao .modal-content,
+.modalLocalizacao .modal-content {
+  background-color: #ffcb00;
   border: 0px solid transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-.modalPascoa .modal-body {
+.modalFichaTecnica .modal-body,
+.modalImplantacao .modal-body,
+.modalLocalizacao .modal-body {
   padding: 8px;
 }
 
-.modalPascoa .close {
+.modalFichaTecnica .close,
+.modalImplantacao .close,
+.modalLocalizacao .close {
   font-size: 27px;
   color: #fff;
   text-shadow: none;
@@ -425,7 +433,9 @@ p {
 }
 
 @media (min-width: 768px) {
-  .modalPascoa .modal-dialog {
+  .modalFichaTecnica .modal-dialog,
+  .modalImplantacao .modal-dialog,
+  .modalLocalizacao .modal-dialog {
     margin: 6% auto 0;
   }
 }
@@ -449,10 +459,14 @@ p {
   .cookies .box .btn_cookie {
     margin-top: 20px;
   }
-  .modalPascoa .modal-dialog {
+  .modalFichaTecnica .modal-dialog,
+  .modalImplantacao .modal-dialog,
+  .modalLocalizacao .modal-dialog {
     margin: 25% auto 0;
   }
-  .modalPascoa .close {
+  .modalFichaTecnica .close,
+  .modalImplantacao .close,
+  .modalLocalizacao .close {
     top: -30px;
     right: 5px;
   }
@@ -789,7 +803,7 @@ p {
     width: 100%;
   }
   .projeto .galeria {
-    margin-bottom: -15px;
+    margin-bottom: 10px;
   }
   .implantacao {
     background: url(../images/bg-5-mobile.jpg) no-repeat;
