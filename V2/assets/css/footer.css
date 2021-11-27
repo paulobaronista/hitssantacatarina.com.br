@@ -1,0 +1,65 @@
+footer {
+  background-color: #000000;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+footer img,
+footer p {
+  display: inline-table !important;
+}
+
+footer p {
+  font-family: 'HelveticaNeue';
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 11px;
+  line-height: 11px;
+  padding-left: 20px;
+}
+
+footer h6 {
+  font-family: 'HelveticaNeue';
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 11px;
+  line-height: 11px;
+  padding-left: 15px;
+}
+
+footer .navbar-nav {
+  margin: 20px 0 0 0;
+}
+
+footer .navbar-nav li {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+footer .navbar-nav li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'HelveticaNeue';
+  font-weight: 300;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 14px;
+  border-right: 1px solid #ffffff;
+}
+
+footer .navbar-nav li > a:focus,
+footer .navbar-nav li > a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+footer .navbar-nav li:last-child a {
+  border-right: 0px solid transparent;
+}
+
+/* Extra Small */
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=footer.css.map */

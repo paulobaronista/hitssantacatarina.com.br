@@ -1,0 +1,145 @@
+.menu.active {
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    .nav>li>a { 
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    float: left;
+    top: 20px;
+    left: 0;
+    z-index: 600;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 0px;
+    min-height: auto;
+    margin-bottom: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+
+    .navbar-collapse,
+    .navbar-form {
+        border-color: transparent;
+    }
+
+    .nav>li {
+        padding: 10px 15px;
+    }
+
+    .nav>li>a {
+        font-family: 'Futura Std';
+        font-style: normal;
+        font-weight: 400;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 14px;
+        line-height: 14px;
+        padding: 0;
+        letter-spacing: 3px;
+
+        &::before {
+            width: 25px;
+            height: 2px;
+            content: '';
+            position: absolute;
+            right: 3px;
+            background-color: #ff9e00;
+            font-size: 30px;
+            bottom: -5px;
+        }
+    }
+
+    .navbar-nav>li>a:focus,
+    .navbar-nav>li>a:hover {
+        color: #ffffff;
+    }
+
+}
+
+
+/* Extra Small */
+@media(max-width:767px) {
+    .menu {
+        top: 0;
+        background-color: transparent !important;
+
+        .navbar-brand {
+            margin-left: 5px;
+        }
+
+        .navbar-nav {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .nav>li {
+            padding: 15px 15px;
+        }
+
+        .nav>li>a {
+            font-size: 12px;
+            line-height: 12px;
+            padding-left: 0px;
+            color: #ffffff;
+            margin-bottom: 0px;
+
+            &::before {
+                left: 3px;
+            }
+        }
+
+        .navbar-toggle {
+            margin-top: 7px;
+            margin-right: 5px;
+            border-color: #000;
+            margin-bottom: 0;
+        }
+
+        .navbar-collapse {
+            border-top: 0px solid transparent;
+            box-shadow: none;
+        }
+
+        .navbar-toggle .icon-bar {
+            background-color: #000;
+        }
+
+        .navbar-toggle:focus,
+        .navbar-toggle:hover {
+            background-color: transparent;
+        }
+
+        .navbar-collapse,
+        .navbar-form {
+            border-color: transparent;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {
+    .menu {
+        .nav>li>a {
+            font-size: 10px;
+            line-height: 10px;
+        }
+    }
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}
