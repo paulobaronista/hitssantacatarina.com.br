@@ -133,13 +133,40 @@ $(function () {
 
         if (n !== '' && e !== '' & t !== '' && i !== '' && m !== '') {
             $(".btn_enviar").text('ENVIAR');
-            $(".btn_enviar").css("background-color","#209916");
+            $(".btn_enviar").css("background-color", "#209916");
             $(".btn_enviar").css('border', "2px solid #16740e");
             $(".btn_enviar").css('color', "#FFFFFF");
         }
 
     });
 
-    $('.phone').inputmask({"mask": "(99) 999999999"});
+    $('.phone').inputmask({ "mask": "(99) 999999999" });
+
+});
+
+$(function () {
+    $('.bnome').clear();
+    $('.bemail').clear();
+    $('.bphone').clear();
+    $('.bmsg').clear();
+
+    $('.bbtn_enviar').on('click', function () {
+        var bn, be, bt, bm;
+        var msg = "";
+        bn = $('.bnome').val();
+        be = $('.bemail').val();
+        bt = $('.bphone').val();
+        bm = $('.bmsg').val();
+
+        if (bn !== '' && be !== '' & bt !== '' && bm !== '') {
+            $(".bbtn_enviar").text('SOLICITAR AGENDAMENTO');
+            $(".bbtn_enviar").css("background-color", "#209916");
+            $(".bbtn_enviar").css('border', "2px solid #16740e");
+            $(".bbtn_enviar").css('color', "#FFFFFF");
+        }
+
+    });
+
+    $('.bphone').inputmask({ "mask": "(99) 999999999" });
 
 });

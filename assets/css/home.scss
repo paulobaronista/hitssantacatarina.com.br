@@ -135,6 +135,13 @@
     }
 }
 
+.tag_beach_tennis {
+    position: fixed;
+    top: 20%;
+    left: 0;
+    z-index: 200;
+}
+
 
 /* Extra Small */
 @media(max-width:767px) {
@@ -215,6 +222,11 @@
         background-size: cover;
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+
+    .tag_beach_tennis {
+        top: 5%;
+        width: 130px;
     }
 }
 

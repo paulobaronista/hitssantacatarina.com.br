@@ -202,14 +202,14 @@
     .glr-home .slick-prev,
     .glr-home .slick-prev:hover,
     .glr-home .slick-prev:focus {
-        width: 20px;
+        width: 25px;
         height: 30px;
         left: 5%;
     }
     .glr-home .slick-next,
     .glr-home.slick-next:hover,
     .glr-home .slick-next:focus {
-        width: 20px;
+        width: 25px;
         height: 30px;
         right: 5%;
     }
@@ -217,32 +217,32 @@
     .glr-projeto .slick-prev,
     .glr-projeto .slick-prev:hover,
     .glr-projeto .slick-prev:focus {
-        width: 20px;
+        width: 25px;
         height: 30px;
-        left: 0%;
+        left: 11%;
     }
 
     .glr-projeto .slick-next,
     .glr-projeto.slick-next:hover,
     .glr-projeto .slick-next:focus {
-        width: 20px;
+        width: 25px;
         height: 30px;
-        right: 0%;
+        right: -2%;
     }
 
     .glr-lazer .slick-prev,
     .glr-lazer .slick-prev:hover,
     .glr-lazer .slick-prev:focus {
-        width: 20px;
+        width: 25px;
         height: 30px;
-        left: 5%;
+        left: 3%;
     }
     .glr-lazer .slick-next,
     .glr-lazer .slick-next:hover,
     .glr-lazer .slick-next:focus {
-        width: 20px;
+        width: 25px;
         height: 30px;
-        right: 0%;
+        right: -2%;
     }
 }
 

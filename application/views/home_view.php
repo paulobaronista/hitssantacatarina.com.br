@@ -330,6 +330,10 @@
                             </div>
                         </div>
                     </form>
+                    <?php
+                    if (isset($email_enviado))
+                        echo $email_enviado;
+                    ?>
                 </div>
             </div>
         </div>
@@ -359,12 +363,6 @@
         </div>
     </div>
 </footer>
-
-<?php
-if (isset($email_enviado))
-    echo $email_enviado;
-?>
-
 <div id="cookies" class="cookies">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
         <div class="col-xs-12 col-sm-9 col-md-9">

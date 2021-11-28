@@ -22,7 +22,7 @@ class Contato extends CI_Controller
             $telefone = $this->input->post('phone');
             $imovel = $this->input->post('imovel');
             $mensagem = utf8_decode($this->input->post('mss'));
-            $assunto = utf8_decode('Contato enviado pelo site www.hitssantacatarina.com.br');
+            $assunto = utf8_decode('[Novo Lead] LP - Hits Vila Santa Catarina');
 
             $this->load->library('email');
             $config['mailtype'] = 'html';
@@ -30,7 +30,7 @@ class Contato extends CI_Controller
 
             $this->email->from("contato@hitssantacatarina.com.br", "Hits Vila Santa Catarina");
             $this->email->to('contato@hitssantacatarina.com.br');
-            $this->email->cc('front.baronista@gmail.com, renata@spicycomm.com.br');
+            $this->email->cc('renata@spicycomm.com.br, front.baronista@gmail.com');
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
             <head> <meta http-equiv='content-type' content='text/html;charset=UTF-8' /> </head><body>

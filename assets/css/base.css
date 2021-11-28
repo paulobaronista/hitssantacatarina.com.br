@@ -351,12 +351,126 @@ p {
   z-index: 100;
 }
 
+.modalTagBeachTennis {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalTagBeachTennis .modal-content {
+  border: 0px solid transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.modalTagBeachTennis .modal-body {
+  padding: 0px;
+  width: 100%;
+  position: relative;
+  float: left;
+  background: #ffffff;
+  border-radius: 35px;
+  border: 7px solid #ee7d00;
+}
+
+.modalTagBeachTennis .heade_tag {
+  padding-top: 20px;
+}
+
+.modalTagBeachTennis .heade_tag img {
+  margin-bottom: -24px;
+  z-index: 100;
+  position: relative;
+}
+
+.modalTagBeachTennis .box {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  background: #63358b;
+  -webkit-border-bottom-right-radius: 28px;
+  -webkit-border-bottom-left-radius: 28px;
+  -moz-border-radius-bottomright: 28px;
+  -moz-border-radius-bottomleft: 28px;
+  border-bottom-right-radius: 28px;
+  border-bottom-left-radius: 28px;
+}
+
+.modalTagBeachTennis .close {
+  font-size: 27px;
+  color: #fff;
+  text-shadow: none;
+  opacity: 1;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  z-index: 100;
+}
+
+.modalTagBeachTennis .group-form .form-group {
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-bottom: 5px;
+}
+
+.modalTagBeachTennis .group-form .form-control {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: 400;
+  height: 47px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #6f6f6e;
+  background-color: #ffffff;
+  border-radius: 35px;
+  border: 2px solid #ee7d00;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.modalTagBeachTennis .group-form .form-control::-webkit-input-placeholder {
+  color: #6f6f6e;
+}
+
+.modalTagBeachTennis .group-form .form-control:-ms-input-placeholder {
+  color: #6f6f6e;
+}
+
+.modalTagBeachTennis .group-form .form-control::-ms-input-placeholder {
+  color: #6f6f6e;
+}
+
+.modalTagBeachTennis .group-form .form-control::placeholder {
+  color: #6f6f6e;
+}
+
+.modalTagBeachTennis .group-form textarea {
+  padding-top: 20px !important;
+  height: 130px !important;
+}
+
+.modalTagBeachTennis .group-form .bbtn_enviar {
+  width: 100%;
+  font-family: 'HelveticaNeue';
+  padding: 8px 20px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  border: 0px solid transparent;
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: #ee7d00;
+  display: table;
+  margin: 5px auto 0;
+  text-transform: uppercase;
+}
+
 @media (min-width: 768px) {
   .modalFichaTecnica .modal-dialog,
   .modalImplantacao .modal-dialog,
   .modalLocalizacao .modal-dialog,
-  .modalVideo .modal-dialog {
-    margin: 6% auto 0;
+  .modalVideo .modal-dialog,
+  .modalTagBeachTennis .modal-dialog {
+    margin: 4% auto 0;
   }
 }
 
@@ -382,15 +496,42 @@ p {
   .modalFichaTecnica .modal-dialog,
   .modalImplantacao .modal-dialog,
   .modalLocalizacao .modal-dialog,
-  .modalVideo .modal-dialog {
-    margin: 25% auto 0;
+  .modalVideo .modal-dialog,
+  .modalTagBeachTennis .modal-dialog {
+    margin: 20% auto 0;
   }
   .modalFichaTecnica .close,
   .modalImplantacao .close,
   .modalLocalizacao .close,
-  .modalVideo .close {
+  .modalVideo .close,
+  .modalTagBeachTennis .close {
     top: -30px;
     right: 5px;
+  }
+  .modalTagBeachTennis .heade_tag {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .modalTagBeachTennis .heade_tag img {
+    max-width: 80%;
+  }
+  .modalTagBeachTennis .tag_txt img {
+    max-width: 80%;
+  }
+  .modalTagBeachTennis .box {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .modalTagBeachTennis form {
+    margin-top: 20px;
+  }
+  .modalTagBeachTennis .group-form .form-control {
+    height: 40px;
+    padding: 6px 12px;
+  }
+  .modalTagBeachTennis .group-form textarea {
+    padding-top: 20px !important;
+    height: 110px !important;
   }
 }
 /*# sourceMappingURL=base.css.map */

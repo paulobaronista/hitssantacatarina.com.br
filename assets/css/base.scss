@@ -334,14 +334,125 @@ p {
     }
 }
 
+.modalTagBeachTennis {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    .modal-content {
+        border: 0px solid transparent;
+        box-shadow: none;
+    }
+
+    .modal-body {
+        padding: 0px;
+        width: 100%;
+        position: relative;
+        float: left;
+        background: #ffffff;
+        border-radius: 35px;
+        border: 7px solid #ee7d00;
+    }
+
+    .heade_tag {
+        padding-top: 20px;
+
+        img {
+            margin-bottom: -24px;
+            z-index: 100;
+            position: relative;
+        }
+    }
+
+    .box {
+        padding-top: 40px;
+        padding-bottom: 10px;
+        background: #63358b;
+        -webkit-border-bottom-right-radius: 28px;
+        -webkit-border-bottom-left-radius: 28px;
+        -moz-border-radius-bottomright: 28px;
+        -moz-border-radius-bottomleft: 28px;
+        border-bottom-right-radius: 28px;
+        border-bottom-left-radius: 28px;
+    }
+
+    .close {
+        font-size: 27px;
+        color: #fff;
+        text-shadow: none;
+        opacity: 1;
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        z-index: 100;
+    }
+
+    .group-form {
+        .form-group {
+            padding-left: 2px;
+            padding-right: 2px;
+            margin-bottom: 5px;
+        }
+
+        .form-control {
+            font-family: 'Futura Std';
+            font-style: normal;
+            font-weight: 400;
+            height: 47px;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #6f6f6e;
+            background-color: #ffffff;
+            border-radius: 35px;
+            border: 2px solid #ee7d00;
+            box-shadow: none;
+
+            &::-webkit-input-placeholder {
+                color: #6f6f6e;
+            }
+
+            &:-ms-input-placeholder {
+                color: #6f6f6e;
+            }
+
+            &::placeholder {
+                color: #6f6f6e;
+            }
+        }
+
+        textarea {
+            padding-top: 20px !important;
+            height: 130px !important;
+        }
+
+        .bbtn_enviar {
+            width: 100%;
+            font-family: 'HelveticaNeue';
+            padding: 8px 20px;
+            margin-bottom: 0;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            border: 0px solid transparent;
+            border-radius: 20px;
+            color: #ffffff;
+            background-color: #ee7d00;
+            display: table;
+            margin: 5px auto 0;
+            text-transform: uppercase;
+
+        }
+    }
+}
+
 @media (min-width: 768px) {
 
     .modalFichaTecnica,
     .modalImplantacao,
     .modalLocalizacao,
-    .modalVideo {
+    .modalVideo,
+    .modalTagBeachTennis {
         .modal-dialog {
-            margin: 6% auto 0;
+            margin: 4% auto 0;
         }
     }
 }
@@ -378,14 +489,55 @@ p {
     .modalFichaTecnica,
     .modalImplantacao,
     .modalLocalizacao,
-    .modalVideo {
+    .modalVideo,
+    .modalTagBeachTennis {
         .modal-dialog {
-            margin: 25% auto 0;
+            margin: 20% auto 0;
         }
 
         .close {
             top: -30px;
             right: 5px;
+        }
+    }
+
+    .modalTagBeachTennis {
+
+        .heade_tag {
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+            img {
+                max-width: 80%;
+            }
+        }
+
+        .tag_txt {
+
+            img {
+                max-width: 80%;
+            }
+        }
+
+        .box {
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        .group-form {
+            .form-control {
+                height: 40px;
+                padding: 6px 12px;
+            }
+
+            textarea {
+                padding-top: 20px !important;
+                height: 110px !important;
+            }
         }
     }
 }
