@@ -13,8 +13,8 @@
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a class="scrollink" href="#home">HOME</a></li>
+                        <li><a class="scrollink" href="#produto">PRODUTO</a></li>
                         <li><a class="scrollink" href="#projeto">PROJETO</a></li>
-                        <li><a class="scrollink" href="#plantas">PLANTAS</a></li>
                         <li><a class="scrollink" href="#implantacao">IMPLANTAÇÃO</a></li>
                         <li><a class="scrollink" href="#lazer">LAZER</a></li>
                         <li><a class="scrollink" href="#localizacao">LOCALIZAÇÃO</a></li>
@@ -51,11 +51,11 @@
         </div>
     </div>
 </div>
-<div id="projeto" class="container-fluid padding-off faixa-azul">
+<div id="produto" class="container-fluid padding-off faixa-azul">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <p>SUCESSO DE VERDADE É LEVAR <br class="visible-xs" />A VIDA DO SEU JEITO.</p>
+                <p>SUCESSO DE VERDADE É LEVAR <br />A VIDA DO SEU JEITO.</p>
             </div>
         </div>
     </div>
@@ -80,7 +80,7 @@
         </div>
     </div>
 </div>
-<div id="plantas" class="container-fluid padding-off faixa-vermelho">
+<div id="projeto" class="container-fluid padding-off faixa-vermelho">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
@@ -96,39 +96,55 @@
                 <div class="galeria">
                     <section class="glr-projeto slider">
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-01.png" alt="Hits Santa Catarina">
-                        </div>
-                        <div>
-                            <a href="#" data-toggle="modal" data-target="#modalVideo">
-                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-video.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/projeto/Ts_SousaDoca_Fachada_HR.jpg" data-lightbox="galeria-projeto">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-02.png" alt="Hits Santa Catarina">
                             </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-02.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/projeto/Ts_SousaDoca_Portaria_HR.jpg" data-lightbox="galeria-projeto">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-03.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-03.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/projeto/TS_Sousa_Doca_Living_Tipo_HR.jpg" data-lightbox="galeria-projeto">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-04.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-04.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/projeto/TS_Sousa_Doca_Terraco_HR.jpg" data-lightbox="galeria-projeto">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-05.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-05.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/projeto/TS_SOUSA_DOCA_TIPO_2DORMITORIOS_HR.jpg" data-lightbox="galeria-projeto">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-06.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-06.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/projeto/TS_SOUSA_DOCA_TIPO_1DORMITORIO_HR.jpg" data-lightbox="galeria-projeto">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-07.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-07.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/projeto/TS_SOUSA_DOCA_TIPO_2DORMITORIOS_GARDEN_HR.jpg" data-lightbox="galeria-projeto">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-08.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-08.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/projeto/TS_SOUSA_DOCA_TIPO_GARDEN_HR.jpg" data-lightbox="galeria-projeto">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-projeto-01.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                     </section>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 portaria">
                 <img class="img-responsive" src="<?= base_url(); ?>assets/images/portaria.png" alt="Hits Santa Catarina">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 video">
+                <a href="#" data-toggle="modal" data-target="#modalVideo">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cta-video.png" alt="Hits Santa Catarina">
+                </a>
             </div>
         </div>
     </div>
@@ -161,7 +177,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <p>LAZER, DIVERSÃO E <br class="visible-xs" />Comodidade SERÃO OS NOVOS <br class="visible-xs" />HITS DA SUA VIDA.</p>
+                <p>LAZER, DIVERSÃO E Comodidade <br />SERÃO OS NOVOS <br class="visible-xs" />HITS DA SUA VIDA.</p>
             </div>
         </div>
     </div>
@@ -169,62 +185,112 @@
 <div class="container-fluid padding-off lazer">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 thumb-lazer">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/thumb-lazer.png" alt="Hits Santa Catarina">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 padding-off thumb-lazer">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off">
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <a href="<?= base_url(); ?>assets/images/galeria/lazer/TS_SousaDoca_BeachTenis_HR.jpg" data-lightbox="galeria-lazer">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/thumb-lazer-1.png" alt="Hits Santa Catarina">
+                        </a>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <a href="<?= base_url(); ?>assets/images/galeria/lazer/Ts_Sousa_Doca_CrossFit_HR.jpg" data-lightbox="galeria-lazer">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/thumb-lazer-2.png" alt="Hits Santa Catarina">
+                        </a>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <a href="<?= base_url(); ?>assets/images/galeria/lazer/Ts_Sousa_Doca_PlayGorund_HR.jpg" data-lightbox="galeria-lazer">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/thumb-lazer-3.png" alt="Hits Santa Catarina">
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                 <div class="galeria">
                     <section class="glr-lazer slider">
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-01.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/lazer/Ts_Sousa_Doca_Piscina_HR.jpg" data-lightbox="galeria-lazer">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-07.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-02.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/lazer/Ts_SousaDoca_BikeStation_HR.jpg" data-lightbox="galeria-lazer">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-01.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-03.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/lazer/Ts_Sousa_Doca_PetPlace_HR.jpg" data-lightbox="galeria-lazer">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-02.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-04.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/lazer/Ts_SousaDoca_UberPlace_HR.jpg" data-lightbox="galeria-lazer">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-03.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-05.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/lazer/TSEngenharia_Sousa_Doca_Coworking_HR.jpg" data-lightbox="galeria-lazer">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-04.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-06.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/lazer/TSEngenharia_Sousa_Doca_Delivery_HR.jpg" data-lightbox="galeria-lazer">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-05.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-07.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/lazer/TSEngenharia_Sousa_Doca_Lavanderia_HR.jpg" data-lightbox="galeria-lazer">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-06.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-08.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/lazer/Ts_Sousa_Doca_Churrasqueira_HR.jpg" data-lightbox="galeria-lazer">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-08.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-09.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/lazer/TSEngenharia_Sousa_Doca_Fitness_HR.jpg" data-lightbox="galeria-lazer">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-09.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-10.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/lazer/TS_SousaDoca_BeachTenis_HR.jpg" data-lightbox="galeria-lazer">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-10.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-11.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/lazer/TS_Doca_Ladder_Sport_HR.jpg" data-lightbox="galeria-lazer">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-11.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-12.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/lazer/Ts_Sousa_Doca_CrossFit_HR.jpg" data-lightbox="galeria-lazer">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-12.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-13.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/lazer/Ts_Sousa_Doca_PlayGorund_HR.jpg" data-lightbox="galeria-lazer">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-13.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-14.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/lazer/TSEngenharia_Sousa_Doca_Espaco_Teen_HR.jpg" data-lightbox="galeria-lazer">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-14.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-15.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/lazer/TSEngenharia_Sousa_Doca_Binquedoteca_HR.jpg" data-lightbox="galeria-lazer">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-15.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-16.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/lazer/TS_SousaDoca_Gourmet_HR.jpg" data-lightbox="galeria-lazer">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-16.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-17.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/lazer/TS_SousaDoca_Festas_HR.jpg" data-lightbox="galeria-lazer">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-17.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                     </section>
                 </div>
@@ -236,7 +302,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <p>SUCESSO É TER TUDO <br class="visible-xs" />PERTO, TUDO FÁCIL!</p>
+                <p>SUCESSO É TER TUDO PERTO,<br /> TUDO FÁCIL!</p>
             </div>
         </div>
     </div>
@@ -272,7 +338,7 @@
                     <span class="col-g">
                         <span class="col-g-a">
                             <p>
-                                LOCAL DO EMPREENDIMENTO:
+                                VISITE PLANTÃO DE VENDAS:
                             </p>
                         </span>
                     </span>
@@ -311,7 +377,7 @@
                                 <input id="telefone" class="phone form-control" type="tel" name="phone" required="required" placeholder="TELEFONE*" />
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                                <input id="imovel" class="imovel form-control" type="text" name="imovel" required="required" placeholder="QUANDO PRETENDE COMPRAR UM IMÓVEL?*" />
+                                <input id="imovel" class="imovel form-control" type="text" name="imovel" placeholder="QUANDO PRETENDE COMPRAR UM IMÓVEL?*" />
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-12 form-group">
                                 <textarea id="form-mensagem" class="msg form-control" cols="30" rows="5" name="mss" placeholder="SUA MENSAGEM">Quero mais informações sobre o HITS VILA SANTA CATARINA</textarea>
@@ -353,10 +419,7 @@
                 </div> -->
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off texto-legal">
                     <p>
-                        O empreendimento só será comercializado após a expedição do RI. Todas as perspectivas, decoração e vegetação são meramente
-                        ilustrativas, podendo sofrer alterações no desenvolvimento do projeto executivo. *Informações no plantão de vendas. As áreas comuns
-                        serão entregues equipadas e decoradas, conforme memorial descritivo. Futuras intermediações: Itaplan - R. Ministro Jesuíno Cardoso,
-                        633 cj. 42 - Vila Nova Conceição - Creci J - 33051. TS Intermediações Imobiliárias - R. Costa Carvalho, 148 - Pinheiros - Creci 216363.
+                        Empreendimento Hits Vila Santa Catarina. Incorporação registrada no R.1 da matrícula 200.308 em 24/11/2021, no 8º Cartório de Registro de Imóveis de São Paulo. Todas as perspectivas, decoração e vegetação são meramente ilustrativas, podendo sofrer alterações no desenvolvimento do projeto executivo. *Informações no plantão de vendas. intermediações: Itaplan - R. Ministro Jesuíno Cardoso, 633 cj. 42 - Vila Nova Conceição - Creci J-33051 e TS Intermediações Imobiliárias - R. Costa Carvalho, 148 - Pinheiros - Creci 216363.
                     </p>
                 </div>
             </div>
@@ -367,7 +430,7 @@
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
         <div class="col-xs-12 col-sm-9 col-md-9">
             <p>
-                Este site utiliza cookies para melhorar sua experiência de navegação, permitir um início de sessão seguro, recolher estatísticas e oferecer conteúdo adequado aos seus interesses. Ao continuar sua navegação, considera-se aceito nossa <a href="<?php echo base_url(); ?>politicadeprivacidade">Política de Privacidade</a>.
+                Este site utiliza cookies para melhorar sua experiência de navegação, permitir um início de sessão seguro, recolher estatísticas e oferecer conteúdo adequado aos seus interesses. Ao continuar sua navegação, considera-se aceito nossa Política de Privacidade.
             </p>
         </div>
         <div class="col-xs-12 col-sm-3 col-md-3">

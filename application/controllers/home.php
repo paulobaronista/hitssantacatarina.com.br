@@ -71,7 +71,7 @@ class Home extends CI_Controller
                                 </body></html>");
 
             if ($this->email->send()) {
-                redirect('contato/obrigado');
+                redirect('contato/beachtennisobrigado');
             } else {
                 redirect('contato/fail');
             }

@@ -85,6 +85,21 @@ class Contato extends CI_Controller
         $this->load->view('rodape');
         $this->load->view('html_footer');
     }
+
+    public function beachtennisobrigado()
+    {
+        $data['title'] = 'Hits Vila Santa Catarina';
+        $data['description'] = 'Sucesso é viver bem.';
+        $data['keywords'] = 'sucesso, viver bem, hits, santa, catarina';
+        $menu['contato'] = 'active';
+        $conteudo['pagina_view'] = 'contato_sucesso_beach_tennis';
+        $this->load->view('html_header', $data);
+        $this->load->view('header');
+        $this->load->view('menu', $menu);
+        $this->load->view('conteudo', $conteudo);
+        $this->load->view('rodape');
+        $this->load->view('html_footer');
+    }
 }
 
 /* Location: ./application/controllers/contato.php */

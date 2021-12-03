@@ -154,7 +154,7 @@ p {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 99999;
+  z-index: 999;
 }
 
 .aviso div {
@@ -176,7 +176,7 @@ p {
   right: 0;
   top: -35px;
   z-index: 999;
-  color: #000000;
+  color: #ffffff;
   font-size: 35px;
   line-height: 35px;
 }
@@ -189,6 +189,18 @@ p {
   line-height: 1.667;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+.aviso div .cadastre-amigos {
+  background-color: #662c91;
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.667;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 15px;
 }
 
 .float-box {

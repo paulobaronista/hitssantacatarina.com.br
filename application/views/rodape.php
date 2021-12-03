@@ -82,7 +82,7 @@
                                     <input id="bphone" class="bphone form-control" type="tel" name="bphone" required="required" placeholder="TELEFONE*" />
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                                    <textarea id="bmsg" class="bmsg form-control" cols="30" rows="5" name="bmss" placeholder="Preencha os dados dos seus amigos com: Nome, E-mail e Telefone.">Preencha os dados dos seus amigos com: Nome, E-mail e Telefone.</textarea>
+                                    <textarea id="bmsg" class="bmsg form-control" cols="30" rows="5" name="bmss" placeholder="SUGIRA UMA DATA PARA O SEU JOGO:"></textarea>
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-12 form-group">
                                     <button type="submit" class="bbtn_enviar btn" title="enviar" name="benviar_email" value="benviar">Validar</button>
