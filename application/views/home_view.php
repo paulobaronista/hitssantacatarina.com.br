@@ -238,7 +238,9 @@
                             </a>
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-18.png" alt="Hits Santa Catarina">
+                            <a href="<?= base_url(); ?>assets/images/galeria/lazer/PERSPECTIVA_ARTISTICA_GRAB_GO_HITS_VSC.jpg" data-lightbox="galeria-lazer">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-lazer-18.png" alt="Hits Santa Catarina">
+                            </a>
                         </div>
                         <div>
                             <a href="<?= base_url(); ?>assets/images/galeria/lazer/TSEngenharia_Sousa_Doca_Lavanderia_HR.jpg" data-lightbox="galeria-lazer">
