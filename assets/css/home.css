@@ -105,18 +105,16 @@
   background-size: cover;
 }
 
-.implantacao a {
-  position: absolute;
-}
-
 .implantacao .cta-ficha-tecnica {
   top: 24%;
   right: 26%;
+  position: absolute;
 }
 
 .implantacao .cta-implantacao {
   bottom: 10%;
   left: 20%;
+  position: absolute;
 }
 
 .lazer {

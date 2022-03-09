@@ -107,18 +107,16 @@
     background-position: center center;
     background-size: cover;
 
-    a {
-        position: absolute;
-    }
-
     .cta-ficha-tecnica {
         top: 24%;
         right: 26%;
+        position: absolute;
     }
 
     .cta-implantacao {
         bottom: 10%;
         left: 20%;
+        position: absolute;
     }
 }
 
