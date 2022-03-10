@@ -162,7 +162,9 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/implantacao.png" alt="Hits Santa Catarina">
+                <a href="#" data-toggle="modal" data-target="#modalImplantacao">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/implantacao.png" alt="Hits Santa Catarina">
+                </a>
                 <a class="cta-ficha-tecnica" href="#" data-toggle="modal" data-target="#modalFichaTecnica">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cta-ficha-tecnica.png" alt="Hits Santa Catarina">
                 </a>
