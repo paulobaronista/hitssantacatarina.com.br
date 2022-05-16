@@ -27,14 +27,11 @@
 <div id="home" class="container-fluid padding-off home">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 padding-off-mobile">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 padding-off-mobile">
                 <div class="galeria">
                     <section class="glr-home slider">
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-home-02.png" alt="Hits Santa Catarina">
-                        </div>
-                        <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-home-01.png" alt="Hits Santa Catarina">
                         </div>
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-home-03.png" alt="Hits Santa Catarina">
@@ -63,7 +60,7 @@
 <div class="container-fluid padding-off hits">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                 <p>
                     É ter o seu espaço, conquistar a sua liberdade.<br class="hidden-xs" />
                     É curtir o momento e aproveitar o seu tempo.<br class="hidden-xs" />
@@ -74,7 +71,7 @@
                     que realmente importa é viver bem e ser feliz.
                 </p>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/hits.png" alt="Hits Santa Catarina">
             </div>
         </div>
@@ -92,7 +89,7 @@
 <div class="container-fluid padding-off projeto">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                 <div class="galeria">
                     <section class="glr-projeto slider">
                         <div>
@@ -138,10 +135,10 @@
                     </section>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 portaria">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 portaria">
                 <img class="img-responsive" src="<?= base_url(); ?>assets/images/portaria.png" alt="Hits Santa Catarina">
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 video">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 video">
                 <a href="#" data-toggle="modal" data-target="#modalVideo">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cta-video.png" alt="Hits Santa Catarina">
                 </a>
@@ -161,7 +158,7 @@
 <div class="container-fluid padding-off implantacao">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                 <a href="#" data-toggle="modal" data-target="#modalImplantacao">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/implantacao.png" alt="Hits Santa Catarina">
                 </a>
@@ -187,7 +184,7 @@
 <div class="container-fluid padding-off lazer">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 padding-off thumb-lazer">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 padding-off thumb-lazer">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off">
                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                         <a href="<?= base_url(); ?>assets/images/galeria/lazer/TS_SousaDoca_BeachTenis_HR.jpg" data-lightbox="galeria-lazer">
@@ -206,7 +203,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                 <div class="galeria">
                     <section class="glr-lazer slider">
                         <div>
@@ -317,7 +314,7 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                 <div class="col-xs-12 col-sm-2 col-md-3 col-lg-3 padding-off"></div>
                 <div class="col-xs-12 col-sm-10 col-md-9 col-lg-9 padding-off txt">
                     <p>
@@ -330,33 +327,43 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/localizacao.png" alt="Hits Santa Catarina">
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off ctas">
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <img class="img-responsive center-block cta-waze" src="<?= base_url(); ?>assets/images/cta-waze.png" alt="Hits Santa Catarina">
-                    </div>
-                    <div class="col-xs-12 visible-xs margin-top-20"></div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <a class="cta-implantacao" href="#" data-toggle="modal" data-target="#modalLocalizacao">
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cta-localizacao.png" alt="Hits Santa Catarina">
-                        </a>
-                    </div>
-                </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off local">
-                    <span class="col-g">
-                        <span class="col-g-a">
-                            <p>
-                                VISITE PLANTÃO DE VENDAS:
-                            </p>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off showroom">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 padding-off visite">
+                            <p>visite decorado: rua alba, 570</p><span><a href="https://waze.com/ul/h6gycd24kj" target="_blank"><img src="<?= base_url(); ?>assets/images/waze.png" alt="Waze" title="Waze"></a></span>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 padding-off">
+                            <a class="cta-implantacao" href="#" data-toggle="modal" data-target="#modalLocalizacao">
+                                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cta-localizacao.png" alt="Hits Santa Catarina">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
+                        <span class="col-g">
+                            <span class="col-g-a">
+                                <p>
+                                    local do empreendimento:
+                                </p>
+                            </span>
                         </span>
-                    </span>
-                    <span class="col-g">
-                        <span class="col-g-b">
-                            <p> RUA EMÍLIO DE SOUSA DOCCA,149</p>
+                        <span class="col-g">
+                            <span class="col-g-b">
+                                <p>Rua Emílio de Sousa Docca, 149</p>
+                            </span>
                         </span>
-                        <span class="col-g-c">
-                            <p> VILA SANTA CATARINA</p>
+                        <span class="col-g">
+                            <span class="col-g-a">
+                                <p>
+                                    - Vila Santa Catarina
+                                </p>
+                            </span>
                         </span>
-                    </span>
+                        <span class="col-g">
+                            <span class="col-g-b">
+                                <span><a href="https://waze.com/ul/h6gyc6nnce" target="_blank"><img src="<?= base_url(); ?>assets/images/waze.png" alt="Waze" title="Waze"></a></span>
+                            </span>
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -364,56 +371,60 @@
     <div class="container-fluid padding-off contato">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 text-center tt">
-                    <p>
-                        PARA SABER MAIS E FAZER<br />
-                        PARTE DESSE SUCESSO,<br />
-                        É SÓ FALAR COM A GENTE!
-                    </p>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
-                    <form method="post" role="form" id="hitssantacatarina" action="<?php echo base_url("contato") ?>">
-                        <div class="group-form">
-                            <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                                <input id="nome" type="text" class="nome form-control" name="nome" required="required" placeholder="NOME*" />
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                                <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="E-MAIL*" />
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                                <input id="telefone" class="phone form-control" type="tel" name="phone" required="required" placeholder="TELEFONE*" />
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                                <input id="imovel" class="imovel form-control" type="text" name="imovel" placeholder="QUANDO PRETENDE COMPRAR UM IMÓVEL?*" />
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                                <textarea id="form-mensagem" class="msg form-control" cols="30" rows="5" name="mss" placeholder="SUA MENSAGEM">Quero mais informações sobre o HITS VILA SANTA CATARINA</textarea>
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                                <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar">Validar</button>
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                                <div class="redes">
-                                    <a href="https://m.facebook.com/tsincorporacaoeconstrucao" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-facebook@2x.png" alt=""></a>
-                                    <a href="https://instagram.com/tranchesisadek?utm_medium=copy_link" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-instagram@2x.png" alt=""></a>
-                                    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511998039252" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-phone@2x.png" alt=""></a>
-                                    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511998039252" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-whatsapp@2x.png" alt=""></a>
-                                    <a href="#" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-chat@2x.png" alt=""></a>
-                                </div>
-                            </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box-0">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off box-1">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off text-center tt">
+                            <p>
+                                PARA SABER MAIS E FAZER<br />
+                                PARTE DESSE SUCESSO,<br />
+                                É SÓ FALAR COM A GENTE!
+                            </p>
                         </div>
-                    </form>
-                    <?php
-                    if (isset($email_enviado))
-                        echo $email_enviado;
-                    ?>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <form method="post" role="form" id="hitssantacatarina" action="<?php echo base_url("contato") ?>">
+                                <div class="group-form">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                                        <input id="nome" type="text" class="nome form-control" name="nome" required="required" placeholder="NOME*" />
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                                        <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="E-MAIL*" />
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                                        <input id="telefone" class="phone form-control" type="tel" name="phone" required="required" placeholder="TELEFONE*" />
+                                    </div>
+                                    <!-- <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                                        <input id="imovel" class="imovel form-control" type="text" name="imovel" placeholder="QUANDO PRETENDE COMPRAR UM IMÓVEL?*" />
+                                    </div> -->
+                                    <!-- <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                                        <textarea id="form-mensagem" class="msg form-control" cols="30" rows="5" name="mss" placeholder="SUA MENSAGEM">Quero mais informações sobre o HITS Cupece</textarea>
+                                    </div> -->
+                                    <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                                        <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar">Validar</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <?php
+                            if (isset($email_enviado))
+                                echo $email_enviado;
+                            ?>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="redes">
+                        <a href="https://m.facebook.com/tsincorporacaoeconstrucao" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-facebook@2x.png" alt=""></a>
+                        <a href="https://instagram.com/tranchesisadek?utm_medium=copy_link" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-instagram@2x.png" alt=""></a>
+                        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511998039252" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-phone@2x.png" alt=""></a>
+                        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511998039252" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-whatsapp@2x.png" alt=""></a>
+                        <a href="#" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-chat@2x.png" alt=""></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logos.png" alt="Hits Santa Catarina">
                 </div>

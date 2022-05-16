@@ -119,19 +119,19 @@ $(function () {
     $('.nome').clear();
     $('.email').clear();
     $('.phone').clear();
-    $('.imovel').clear();
-    $('.msg').clear();
+    // $('.imovel').clear();
+    // $('.msg').clear();
 
     $('.btn_enviar').on('click', function () {
-        var n, e, t, m, i;
+        var n, e, t;
         var msg = "";
         n = $('.nome').val();
         e = $('.email').val();
         t = $('.phone').val();
-        i = $('.imovel').val();
-        m = $('.msg').val();
+        // i = $('.imovel').val();
+        // m = $('.msg').val();
 
-        if (n !== '' && e !== '' & t !== '' && i !== '' && m !== '') {
+        if (n !== '' && e !== '' & t !== '') {
             $(".btn_enviar").text('ENVIAR');
             $(".btn_enviar").css("background-color", "#209916");
             $(".btn_enviar").css('border', "2px solid #16740e");

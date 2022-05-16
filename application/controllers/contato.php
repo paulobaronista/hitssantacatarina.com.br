@@ -20,8 +20,8 @@ class Contato extends CI_Controller
             $nome = $this->input->post('nome');
             $email = $this->input->post('email');
             $telefone = $this->input->post('phone');
-            $imovel = $this->input->post('imovel');
-            $mensagem = utf8_decode($this->input->post('mss'));
+            // $imovel = $this->input->post('imovel');
+            // $mensagem = utf8_decode($this->input->post('mss'));
             $assunto = utf8_decode('[Novo Lead] LP - Hits Vila Santa Catarina');
 
             $this->load->library('email');
@@ -37,9 +37,7 @@ class Contato extends CI_Controller
             Nome:		{$nome}<br/>
                 E-mail:		{$email}<br/>
                     Telefone:	{$telefone}<br/>
-                        Quando pretende comprar um imóvel:	{$imovel}<br/>
-                            Mensagem:	{$mensagem}<br/>
-                                </body></html>");
+                        </body></html>");
 
             if ($this->email->send()) {
                 redirect('contato/obrigado');

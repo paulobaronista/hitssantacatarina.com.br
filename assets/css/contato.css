@@ -1,26 +1,36 @@
 .contato .container {
-  width: 325px;
+  width: 300px;
   position: fixed;
-  top: 60px;
-  right: 5%;
+  bottom: 30px;
+  right: 2%;
+  z-index: 200;
+}
+
+.contato .container .box-0 {
+  background: -webkit-gradient(linear, left top, right top, from(#0096d9), to(#004884));
+  background: linear-gradient(to right, #0096d9, #004884);
+  padding: 8px;
+  border-radius: 30px;
+}
+
+.contato .container .box-1 {
+  background-color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-radius: 25px;
 }
 
 .contato .tt {
-  padding: 10px 15px;
-  border-radius: 5px;
-  border: 3px solid #ffcb00;
-  background-color: #e84e1e;
   margin-bottom: 10px;
 }
 
 .contato .tt p {
   font-family: 'Futura Std';
   font-style: normal;
-  font-weight: 900;
-  color: #ffffff;
-  font-size: 19px;
-  line-height: 24px;
-  letter-spacing: 2px;
+  font-weight: bold;
+  color: #263685;
+  font-size: 15px;
+  line-height: 19px;
 }
 
 .contato .group-form .form-group {
@@ -33,32 +43,36 @@
   font-family: 'Futura Std';
   font-style: normal;
   font-weight: 400;
-  height: 47px;
-  padding: 6px 12px;
-  font-size: 14px;
+  height: 50px;
+  padding: 6px 12px 15px 0px;
+  font-size: 12px;
   line-height: 1.42857143;
-  color: #e84e1e;
+  color: rgba(0, 0, 0, 0.4);
   background-color: #ffffff;
-  border-radius: 5px;
-  border: 2px solid #ffcb00;
+  border-radius: 0px;
+  border-top: 0px solid transparent;
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 1px solid #000000;
   -webkit-box-shadow: none;
           box-shadow: none;
+  text-transform: uppercase;
 }
 
 .contato .group-form .form-control::-webkit-input-placeholder {
-  color: #e84e1e;
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .contato .group-form .form-control:-ms-input-placeholder {
-  color: #e84e1e;
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .contato .group-form .form-control::-ms-input-placeholder {
-  color: #e84e1e;
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .contato .group-form .form-control::placeholder {
-  color: #e84e1e;
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .contato .group-form textarea {
@@ -66,9 +80,9 @@
 }
 
 .contato .group-form .btn_enviar {
-  width: 100%;
+  width: 65%;
   font-family: 'HelveticaNeue';
-  padding: 8px 20px;
+  padding: 3px 0px;
   margin-bottom: 0;
   font-size: 18px;
   font-weight: 400;
@@ -76,15 +90,20 @@
   border: 3px solid #e94e1f;
   border-radius: 20px;
   color: #e94e1f;
-  background-color: #ffcb00;
+  background-color: #ffcc00;
   display: table;
-  margin: 10px auto 0;
+  margin: 20px auto 0;
   text-transform: uppercase;
 }
 
-.contato .redes {
+.redes {
+  margin: 40px auto 0;
   display: table;
-  margin: 10px auto 0;
+}
+
+.redes a {
+  display: inline-block;
+  margin: 0 3px;
 }
 
 /* Extra Small */
@@ -107,6 +126,7 @@
     position: relative;
     top: 10px;
     right: 0%;
+    margin-bottom: 40px;
   }
 }
 
