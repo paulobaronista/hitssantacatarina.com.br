@@ -3,9 +3,41 @@
     background-position: center top;
     background-size: cover;
     padding-top: 90px;
+    position: relative;
 
     .galeria {
         margin-bottom: -5px;
+    }
+
+    #highlightInfos {
+        position: absolute;
+        left: 0;
+        bottom: 5%;
+
+        .anchor {
+            width: 170px;
+            background-color: #283583;
+            border-top: 3px solid #ffff00;
+            border-bottom: 3px solid #ffff00;
+            border-right: 3px solid #ffff00;
+            margin-bottom: 4px;
+            -webkit-border-top-right-radius: 40px;
+            -webkit-border-bottom-right-radius: 40px;
+            -moz-border-radius-topright: 40px;
+            -moz-border-radius-bottomright: 40px;
+            border-top-right-radius: 40px;
+            border-bottom-right-radius: 40px;
+            padding: 8px 10px 12px 30px;
+            display: table;
+            img {
+                float: right;
+            }
+        }
+
+        .highlight {
+            width: 250px;
+            padding: 8px 20px 12px 50px;
+        }
     }
 }
 
@@ -155,6 +187,22 @@
 
         .galeria {
             margin-bottom: -6px;
+        }
+
+        #highlightInfos {
+            bottom: 1%;
+            z-index: 10;
+    
+            .anchor {
+                width: 110px;
+                margin-bottom: 2px;
+                padding: 4px 10px 6px 10px;
+            }
+    
+            .highlight {
+                width: 140px;
+                padding: 4px 10px 6px 10px;
+            }
         }
     }
 

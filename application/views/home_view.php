@@ -27,11 +27,12 @@
 <div id="home" class="container-fluid padding-off home">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 padding-off-mobile">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-lg-offset-1 padding-off-mobile">
                 <div class="galeria">
                     <section class="glr-home slider">
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-home-02.png" alt="Hits Santa Catarina">
+                            <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria/galeria-home-02.png" alt="Hits Santa Catarina">
+                            <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria/galeria-home-02-mobile.png" alt="Hits Santa Catarina">
                         </div>
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-home-03.png" alt="Hits Santa Catarina">
@@ -47,7 +48,25 @@
             </div>
         </div>
     </div>
+    <div id="highlightInfos">
+        <div class="anchor">
+            <img class="img-responsive" src="<?= base_url(); ?>assets/images/anchor-02.png" alt="Hits Santa Catarina">
+        </div>
+        <div class="anchor">
+            <img class="img-responsive" src="<?= base_url(); ?>assets/images/anchor-04.png" alt="Hits Santa Catarina">
+        </div>
+        <div class="anchor">
+            <img class="img-responsive" src="<?= base_url(); ?>assets/images/anchor-03.png" alt="Hits Santa Catarina">
+        </div>
+        <div class="anchor">
+            <img class="img-responsive" src="<?= base_url(); ?>assets/images/anchor-05.png" alt="Hits Santa Catarina">
+        </div>
+        <div class="anchor">
+            <img class="img-responsive" src="<?= base_url(); ?>assets/images/anchor-01.png" alt="Hits Santa Catarina">
+        </div>
+    </div>
 </div>
+
 <div id="produto" class="container-fluid padding-off faixa-azul">
     <div class="container">
         <div class="row">

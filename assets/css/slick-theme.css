@@ -52,7 +52,7 @@
 .glr-home .slick-prev:focus {
     width: 35px;
     height: 35px;
-    top: 50%;
+    top: 40%;
     left: -2%;
     background: url(../images/seta-left.png) no-repeat;
     background-position: center center;
@@ -65,7 +65,7 @@
 .glr-home .slick-next:focus {
     width: 35px;
     height: 35px;
-    top: 50%;
+    top: 40%;
     right: -2%;
     background: url(../images/seta-right.png) no-repeat;
     background-position: center center;
