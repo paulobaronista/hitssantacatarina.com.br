@@ -320,7 +320,8 @@ p {
 .modalFichaTecnica,
 .modalImplantacao,
 .modalLocalizacao,
-.modalVideo {
+.modalVideo,
+.modalVideo2 {
     background-color: rgba(0, 0, 0, 0.5);
 
     .modal-content {
@@ -461,6 +462,7 @@ p {
     .modalImplantacao,
     .modalLocalizacao,
     .modalVideo,
+    .modalVideo2,
     .modalTagBeachTennis {
         .modal-dialog {
             margin: 4% auto 0;
@@ -501,6 +503,7 @@ p {
     .modalImplantacao,
     .modalLocalizacao,
     .modalVideo,
+    .modalVideo2,
     .modalTagBeachTennis {
         .modal-dialog {
             margin: 20% auto 0;

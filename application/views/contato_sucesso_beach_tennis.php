@@ -35,6 +35,10 @@
                             <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria/galeria-home-02-mobile.png" alt="Hits Santa Catarina">
                         </div>
                         <div>
+                            <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria/galeria-home-06.png" alt="Hits Santa Catarina">
+                            <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria/galeria-home-06-mobile.png" alt="Hits Santa Catarina">
+                        </div>
+                        <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-home-03.png" alt="Hits Santa Catarina">
                         </div>
                         <div>
@@ -44,6 +48,14 @@
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-home-05.png" alt="Hits Santa Catarina">
                         </div>
                     </section>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 video">
+                <div class="col-xs-4 padding-off"></div>
+                <div class="col-xs-8 col-sm-12 col-md-12 padding-off">
+                    <a href="#" data-toggle="modal" data-target="#modalVideo2">
+                        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cta-video.png" alt="Hits Santa Catarina">
+                    </a>
                 </div>
             </div>
         </div>
@@ -456,8 +468,7 @@
                 </div> -->
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off texto-legal">
                     <p>
-                        Empreendimento Hits Santa Catarina. Incorporação registrada no R.1 da matrícula 200.308 em 29/11/2021, no 8º Cartório de Registro de Imóveis de São Paulo. Todas as perspectivas, decoração e vegetação são meramente ilustrativas, podendo sofrer alterações no desenvolvimento do projeto executivo.
-                        As áreas comuns serão entregues equipadas e decoradas conforme memorial descritivo. *Informações no plantão de vendas. **A quantidade inicial de máquinas dadas em comodato é determinada pela análise da equipe técnica especializada da OMO, podendo haver variações com o representado na perspectiva artística. Havendo necessidade de ajustes por aumento da demanda de uso, estes ficarão a critério do condomínio, respeitando a limitação de espaço físico. Intermediações: Itaplan - R. Ministro Jesuíno Cardoso, 633 cj. 42 - Vila Nova Conceição - Creci J-33051 e TS Intermediações Imobiliárias - R. Costa Carvalho, 148 - Pinheiros - Creci 216363.
+                        Empreendimento Hits Santa Catarina. Incorporação registrada no R.1 da matrícula 200.308 em 29/11/2021, no 8º Cartório de Registro de Imóveis de São Paulo. Todas as perspectivas, decoração e vegetação são meramente ilustrativas, podendo sofrer alterações no desenvolvimento do projeto executivo. As áreas comuns serão entregues equipadas e decoradas conforme memorial descritivo. *Informações no plantão de vendas. **A quantidade inicial de máquinas dadas em comodato é determinada pela análise da equipe técnica especializada da OMO, podendo haver variações com o representado na perspectiva artística. Havendo necessidade de ajustes por aumento da demanda de uso, estes ficarão a critério do condomínio, respeitando a limitação de espaço físico. Intermediação: Patricia Ferreira Carvalho - R. Costa Carvalho, 148 - Pinheiros - Creci 216363-F.
                     </p>
                 </div>
             </div>

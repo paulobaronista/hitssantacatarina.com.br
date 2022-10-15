@@ -42,6 +42,13 @@
   padding: 8px 20px 12px 50px;
 }
 
+.home .video {
+  position: absolute;
+  right: 3%;
+  top: 13%;
+  width: 280px;
+}
+
 .faixa-azul,
 .faixa-vermelho,
 .faixa-verde,
@@ -198,6 +205,17 @@
     width: 140px;
     padding: 4px 10px 6px 10px;
   }
+  .home .video {
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .home .video img {
+    max-width: 70%;
+  }
   .faixa-azul,
   .faixa-vermelho,
   .faixa-verde,
@@ -260,7 +278,7 @@
   }
   .tag_beach_tennis {
     top: 5%;
-    width: 130px;
+    width: 190px;
   }
 }
 
