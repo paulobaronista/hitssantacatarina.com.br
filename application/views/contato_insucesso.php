@@ -50,17 +50,15 @@
                     </section>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 video">
+            <div class="col-xs-12 col-sm-12 col-md-12 box-clique">
                 <div class="col-xs-4 padding-off"></div>
-                <div class="col-xs-8 col-sm-12 col-md-12 padding-off">
+                <div class="col-xs-8 col-sm-12 col-md-12 padding-off img-clique">
                     <a href="#" data-toggle="modal" data-target="#modalVideo2">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cta-video.png" alt="Hits Santa Catarina">
                     </a>
                 </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 obra">
                 <div class="col-xs-4 padding-off"></div>
-                <div class="col-xs-8 col-sm-12 col-md-12 padding-off">
+                <div class="col-xs-8 col-sm-12 col-md-12 padding-off img-clique">
                     <a href="https://www.tsengenharia.com/imovel/hits-vila-santa-catarina/" target="_blank">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cta-obra.png" alt="Hits Santa Catarina">
                     </a>

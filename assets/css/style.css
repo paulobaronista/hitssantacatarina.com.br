@@ -1,1 +1,1410 @@
-@font-face{font-family:"Futura Std";font-style:normal;font-weight:normal;src:local("Futura Std Book"),url("../fonts/fonts/FuturaStdBook.woff") format("woff")}@font-face{font-family:"Futura Std";font-style:oblique;font-weight:normal;src:local("Futura Std Book Oblique"),url("../fonts/FuturaStdBookOblique.woff") format("woff")}@font-face{font-family:"Futura Std";font-style:normal;font-weight:300;src:local("Futura Std Light"),url("../fonts/FuturaStdLight.woff") format("woff")}@font-face{font-family:"Futura Std";font-style:oblique;font-weight:300;src:local("Futura Std Light Oblique"),url("../fonts/FuturaStdLightOblique.woff") format("woff")}@font-face{font-family:"Futura Std";font-style:normal;font-weight:400;src:local("Futura Std Medium"),url("../fonts/FuturaStdMedium.woff") format("woff")}@font-face{font-family:"Futura Std";font-style:oblique;font-weight:400;src:local("Futura Std Medium Oblique"),url("../fonts/FuturaStdMediumOblique.woff") format("woff")}@font-face{font-family:"Futura Std";font-style:normal;font-weight:900;src:local("Futura Std Heavy"),url("../fonts/FuturaStdHeavy.woff") format("woff")}@font-face{font-family:"Futura Std";font-style:oblique;font-weight:900;src:local("Futura Std Heavy Oblique"),url("../fonts/FuturaStdHeavyOblique.woff") format("woff")}@font-face{font-family:"Futura Std";font-style:normal;font-weight:500;src:local("Futura Std Bold"),url("../fonts/FuturaStdBold.woff") format("woff")}@font-face{font-family:"Futura Std";font-style:oblique;font-weight:500;src:local("Futura Std Bold Oblique"),url("../fonts/FuturaStdBoldOblique.woff") format("woff")}@font-face{font-family:"Futura Std";font-style:normal;font-weight:700;src:local("Futura Std Extra Bold"),url("../fonts/FuturaStdExtraBold.woff") format("woff")}@font-face{font-family:"Futura Std";font-style:oblique;font-weight:700;src:local("Futura Std Extra Bold Oblique"),url("../fonts/FuturaStdExtraBoldOblique.woff") format("woff")}.margin-top{margin-top:10px}.margin-top-5{margin-top:5px}.margin-top-15{margin-top:15px}.margin-top-20{margin-top:20px}.margin-top-27{margin-top:27px}.margin-top-30{margin-top:30px}.margin-top-40{margin-top:40px}.margin-top-50{margin-top:50px}.margin-top-54{margin-top:54px}.margin-top-60{margin-top:60px}.margin-top-65{margin-top:65px}.margin-top-70{margin-top:70px}.margin-top-80{margin-top:80px}.margin-top-90{margin-top:90px}.margin-top-99{margin-top:99px}.margin-top-100{margin-top:100px}.margin-top-110{margin-top:110px}.margin-top-120{margin-top:120px}.margin-top-140{margin-top:140px}.margin-top-149{margin-top:149px}.margin-top-150{margin-top:150px}.margin-top-160{margin-top:160px}.margin-top-200{margin-top:200px}.margin-top-220{margin-top:220px}.margin-top-230{margin-top:230px}.margin-top-250{margin-top:250px}.margin-top-330{margin-top:330px}.margin-top-350{margin-top:350px}.margin-top-380{margin-top:380px}.margin-top-385{margin-top:385px}.margin-top-390{margin-top:390px}.margin-top-400{margin-top:400px}.padding-off{padding-left:0px !important;padding-right:0px !important}p{margin:0}.container-off-padding{padding-left:0px;padding-right:0px}.row-off-margin{margin-left:0px;margin-right:0px}.aviso{background:rgba(0,0,0,.6);width:100%;height:100%;position:fixed;top:0;right:0;bottom:0;left:0;z-index:999}.aviso div{display:table;margin:10% auto 0;width:40%;background:#ce1719;background:linear-gradient(90deg, rgb(206, 23, 25) 0%, rgb(243, 143, 0) 49%, rgb(206, 23, 25) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ce1719", endColorstr="#ce1719", GradientType=1);padding:20px 10px;position:relative}.aviso div .close{text-shadow:none;opacity:1;position:absolute;right:0;top:-35px;z-index:999;color:#fff;font-size:35px;line-height:35px}.aviso div p{font-family:"Futura Std";font-style:normal;font-weight:normal;font-size:18px;line-height:1.667;color:#fff;text-transform:uppercase}.aviso div .cadastre-amigos{background-color:#662c91;font-family:"Futura Std";font-style:normal;font-weight:normal;font-size:13px;line-height:1.667;color:#fff;text-transform:uppercase;margin-top:15px}.float-box{display:flex;align-items:flex-end;flex-direction:column;position:fixed;right:0;z-index:999;bottom:90px}.float-box a{width:47px;overflow:hidden;color:rgba(255,255,255,0);transition:width 400ms,color 800ms;height:47px;line-height:27px;display:block;margin-bottom:1px;padding:10px 15px;text-transform:uppercase;font-family:"Montserrat",sans-serif;font-weight:normal;font-style:normal;font-size:12px;letter-spacing:2px;cursor:pointer;text-decoration:none}.float-box a:hover{width:220px;color:#fff}.float-box .chat{background:url(../images/icone-chat.png) no-repeat right 10px center;background-color:rgba(0,0,0,0);background-color:#aca727}.float-box .car{background:url(../images/icone-car.png) no-repeat right 10px center;background-color:rgba(0,0,0,0);background-color:#aca727}.float-box .mail{background:url(../images/icone-mail.png) no-repeat right 10px center;background-color:rgba(0,0,0,0);background-color:#aca727}.float-box .whats{background:url(../images/icone-zap.png) no-repeat right 10px center;background-color:rgba(0,0,0,0);background-color:#aca727}.cookies{position:fixed;width:100%;background-color:rgba(0,0,0,.7);z-index:9999;height:100%;top:0;display:none}.cookies .box{background:#ce1719;background:linear-gradient(90deg, rgb(206, 23, 25) 0%, rgb(243, 143, 0) 49%, rgb(206, 23, 25) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ce1719", endColorstr="#ce1719", GradientType=1);padding-top:20px;padding-bottom:20px;position:absolute;bottom:20px;border-radius:20px}.cookies .box p{font-family:"Futura Std";font-style:normal;font-weight:normal;color:#000;font-size:12px;line-height:14px;margin-top:7px}.cookies .box p a{text-decoration:underline;color:#000}.cookies .box .btn_cookie{font-family:"Futura Std";font-style:normal;font-weight:400;font-size:19px;line-height:19px;color:#fff;border:0px solid rgba(0,0,0,0);border-radius:50px;padding:12px 30px;width:160px;margin-top:7px;box-shadow:none;background:#12c712;letter-spacing:1px}.modalFichaTecnica,.modalImplantacao,.modalLocalizacao,.modalVideo,.modalVideo2{background-color:rgba(0,0,0,.5)}.modalFichaTecnica .modal-content,.modalImplantacao .modal-content,.modalLocalizacao .modal-content,.modalVideo .modal-content,.modalVideo2 .modal-content{background-color:#ffcb00;border:0px solid rgba(0,0,0,0);box-shadow:none}.modalFichaTecnica .modal-body,.modalImplantacao .modal-body,.modalLocalizacao .modal-body,.modalVideo .modal-body,.modalVideo2 .modal-body{padding:8px}.modalFichaTecnica .close,.modalImplantacao .close,.modalLocalizacao .close,.modalVideo .close,.modalVideo2 .close{font-size:27px;color:#fff;text-shadow:none;opacity:1;position:absolute;top:-20px;right:-20px;z-index:100}.modalTagBeachTennis{background-color:rgba(0,0,0,.5)}.modalTagBeachTennis .modal-content{border:0px solid rgba(0,0,0,0);box-shadow:none}.modalTagBeachTennis .modal-body{padding:0px;width:100%;position:relative;float:left;background:#fff;border-radius:35px;border:7px solid #ee7d00}.modalTagBeachTennis .heade_tag{padding-top:20px}.modalTagBeachTennis .heade_tag img{margin-bottom:-24px;z-index:100;position:relative}.modalTagBeachTennis .box{padding-top:40px;padding-bottom:10px;background:#63358b;-webkit-border-bottom-right-radius:28px;-webkit-border-bottom-left-radius:28px;-moz-border-radius-bottomright:28px;-moz-border-radius-bottomleft:28px;border-bottom-right-radius:28px;border-bottom-left-radius:28px}.modalTagBeachTennis .close{font-size:27px;color:#fff;text-shadow:none;opacity:1;position:absolute;top:-20px;right:-20px;z-index:100}.modalTagBeachTennis .group-form .form-group{padding-left:2px;padding-right:2px;margin-bottom:5px}.modalTagBeachTennis .group-form .form-control{font-family:"Futura Std";font-style:normal;font-weight:400;height:47px;padding:6px 12px;font-size:14px;line-height:1.42857143;color:#6f6f6e;background-color:#fff;border-radius:35px;border:2px solid #ee7d00;box-shadow:none}.modalTagBeachTennis .group-form .form-control::-moz-placeholder{color:#6f6f6e}.modalTagBeachTennis .group-form .form-control::placeholder{color:#6f6f6e}.modalTagBeachTennis .group-form textarea{padding-top:20px !important;height:130px !important}.modalTagBeachTennis .group-form .bbtn_enviar{width:100%;font-family:"HelveticaNeue";padding:8px 20px;margin-bottom:0;font-size:18px;font-weight:400;line-height:1.42857143;border:0px solid rgba(0,0,0,0);border-radius:20px;color:#fff;background-color:#ee7d00;display:table;margin:5px auto 0;text-transform:uppercase}@media(min-width: 768px){.modalFichaTecnica .modal-dialog,.modalImplantacao .modal-dialog,.modalLocalizacao .modal-dialog,.modalVideo .modal-dialog,.modalVideo2 .modal-dialog,.modalTagBeachTennis .modal-dialog{margin:4% auto 0}}@media(max-width: 767px){.aviso div{margin:30% auto 0;width:95%}.padding-off-mobile{padding-left:0px !important;padding-right:0px !important}.float-box{bottom:30%}.cookies .box{padding-top:10px}.cookies .box .btn_cookie{margin-top:20px}.modalFichaTecnica .modal-dialog,.modalImplantacao .modal-dialog,.modalLocalizacao .modal-dialog,.modalVideo .modal-dialog,.modalVideo2 .modal-dialog,.modalTagBeachTennis .modal-dialog{margin:20% auto 0}.modalFichaTecnica .close,.modalImplantacao .close,.modalLocalizacao .close,.modalVideo .close,.modalVideo2 .close,.modalTagBeachTennis .close{top:-30px;right:5px}.modalTagBeachTennis .heade_tag{padding-top:10px;padding-bottom:10px}.modalTagBeachTennis .heade_tag img{max-width:80%}.modalTagBeachTennis .tag_txt img{max-width:80%}.modalTagBeachTennis .box{padding-top:20px;padding-bottom:10px}.modalTagBeachTennis form{margin-top:20px}.modalTagBeachTennis .group-form .form-control{height:40px;padding:6px 12px}.modalTagBeachTennis .group-form textarea{padding-top:20px !important;height:110px !important}}.menu.active{top:0px;background-color:rgba(0,0,0,.6)}.menu.active .nav>li>a{font-size:12px;line-height:12px}.menu{position:fixed;width:100%;float:left;top:20px;left:0;z-index:600;background-color:rgba(0,0,0,0);border-color:rgba(0,0,0,0);border-radius:0px;min-height:auto;margin-bottom:0px;padding-top:3px;padding-bottom:3px;transition:all .2s linear}.menu .navbar-collapse,.menu .navbar-form{border-color:rgba(0,0,0,0)}.menu .nav>li{padding:10px 15px}.menu .nav>li>a{font-family:"Futura Std";font-style:normal;font-weight:400;color:#fff;text-transform:uppercase;font-size:14px;line-height:14px;padding:0;letter-spacing:3px}.menu .nav>li>a::before{width:25px;height:2px;content:"";position:absolute;right:3px;background-color:#ff9e00;font-size:30px;bottom:-5px}.menu .navbar-nav>li>a:focus,.menu .navbar-nav>li>a:hover{color:#fff}@media(max-width: 767px){.menu{top:0;background-color:rgba(0,0,0,0) !important}.menu .navbar-brand{margin-left:5px}.menu .navbar-nav{background-color:rgba(0,0,0,.8);padding-top:20px;padding-bottom:20px}.menu .nav>li{padding:15px 15px}.menu .nav>li>a{font-size:12px;line-height:12px;padding-left:0px;color:#fff;margin-bottom:0px}.menu .nav>li>a::before{left:3px}.menu .navbar-toggle{margin-top:7px;margin-right:5px;border-color:#000;margin-bottom:0}.menu .navbar-collapse{border-top:0px solid rgba(0,0,0,0);box-shadow:none}.menu .navbar-toggle .icon-bar{background-color:#000}.menu .navbar-toggle:focus,.menu .navbar-toggle:hover{background-color:rgba(0,0,0,0)}.menu .navbar-collapse,.menu .navbar-form{border-color:rgba(0,0,0,0)}}@media(min-width: 768px)and (max-width: 991px){.menu .nav>li>a{font-size:10px;line-height:10px}}.home{background:url(../images/fundo-laranja_superior.jpg) no-repeat;background-position:center top;background-size:cover;padding-top:90px;position:relative}.home .galeria{margin-bottom:-5px}.home #highlightInfos{position:absolute;left:0;bottom:5%}.home #highlightInfos .anchor{width:170px;background-color:#283583;border-top:3px solid #ff0;border-bottom:3px solid #ff0;border-right:3px solid #ff0;margin-bottom:4px;-webkit-border-top-right-radius:40px;-webkit-border-bottom-right-radius:40px;-moz-border-radius-topright:40px;-moz-border-radius-bottomright:40px;border-top-right-radius:40px;border-bottom-right-radius:40px;padding:8px 10px 12px 30px;display:table}.home #highlightInfos .anchor img{float:right}.home #highlightInfos .highlight{width:250px;padding:8px 20px 12px 50px}.home .video{position:absolute;right:3%;top:13%;width:280px}.home .obra{position:absolute;right:3%;top:25%;width:280px}.faixa-azul,.faixa-vermelho,.faixa-verde,.faixa-roxo{padding-bottom:18px;padding-top:18px}.faixa-azul p,.faixa-vermelho p,.faixa-verde p,.faixa-roxo p{font-family:"Futura Std";font-style:normal;font-weight:900;font-size:20px;line-height:25px;color:#fff;text-transform:uppercase;letter-spacing:5px}.faixa-azul{background:#263684;background:linear-gradient(90deg, rgb(38, 54, 132) 0%, rgb(0, 138, 208) 49%, rgb(38, 54, 132) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#263684", endColorstr="#263684", GradientType=1)}.faixa-vermelho{background:#ce1719;background:linear-gradient(90deg, rgb(206, 23, 25) 0%, rgb(243, 143, 0) 49%, rgb(206, 23, 25) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ce1719", endColorstr="#ce1719", GradientType=1)}.faixa-verde{background:#00570e;background:linear-gradient(90deg, rgb(0, 87, 14) 0%, rgb(0, 189, 0) 49%, rgb(0, 87, 14) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#00570e", endColorstr="#00570e", GradientType=1)}.faixa-roxo{background:#672583;background:linear-gradient(90deg, rgb(103, 37, 131) 0%, rgb(182, 89, 158) 49%, rgb(103, 37, 131) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#672583", endColorstr="#672583", GradientType=1)}.hits{background:url(../images/bg-1.jpg) no-repeat;background-position:center center;background-size:cover;padding-top:20px;padding-bottom:20px}.hits p{font-family:"Futura Std";font-style:normal;font-weight:normal;color:#636362;font-size:16px;line-height:25px;text-align:right}.projeto{background:url(../images/bg-2.jpg) no-repeat;background-position:center center;background-size:cover;padding-top:20px;padding-bottom:20px}.projeto .galeria{position:relative;z-index:100;margin-bottom:-30px}.projeto .portaria img{float:right}.projeto .video{padding-top:20px}.implantacao{background:url(../images/bg-5.jpg) no-repeat;background-position:center center;background-size:cover}.implantacao .cta-ficha-tecnica{top:24%;right:26%;position:absolute}.implantacao .cta-implantacao{bottom:10%;left:20%;position:absolute}.lazer{background:url(../images/bg-3.jpg) no-repeat;background-position:center center;background-size:cover;padding-top:20px;padding-bottom:20px}.lazer .galeria{position:relative;z-index:100}.lazer .thumb-lazer{margin-bottom:30px}.tag_beach_tennis{position:fixed;top:20%;left:0;z-index:200}@media(max-width: 767px){.home{background:url(../images/fundo-laranja_superior-mobile.jpg) no-repeat;background-position:center center;background-size:cover;padding-top:10px}.home .galeria{margin-bottom:-6px}.home #highlightInfos{bottom:1%;z-index:10}.home #highlightInfos .anchor{width:110px;margin-bottom:2px;padding:4px 10px 6px 10px}.home #highlightInfos .highlight{width:140px;padding:4px 10px 6px 10px}.home .video{position:relative;right:0;top:0;width:100%;padding-top:15px;padding-bottom:15px}.home .video img{max-width:70%}.home .obra{position:relative;right:0;top:0;width:100%;padding-bottom:15px}.home .obra img{max-width:70%}.faixa-azul,.faixa-vermelho,.faixa-verde,.faixa-roxo{padding-bottom:13px;padding-top:15px}.faixa-azul p,.faixa-vermelho p,.faixa-verde p,.faixa-roxo p{font-size:13px;line-height:20px}.hits{background:url(../images/bg-1-mobile.jpg) no-repeat;background-position:center top;background-size:cover;padding-top:20px;padding-bottom:20px}.hits p{font-size:14px;line-height:22px;text-align:center;margin-bottom:20px}.projeto{background:url(../images/bg-2-mobile.jpg) no-repeat;background-position:center center;background-size:cover;padding-top:20px;padding-bottom:20px}.projeto .galeria{margin-bottom:10px}.implantacao{background:url(../images/bg-5-mobile.jpg) no-repeat;background-position:center center;background-size:cover}.implantacao a{width:150px}.implantacao .cta-ficha-tecnica{top:24%;right:22%}.implantacao .cta-implantacao{bottom:10%;left:14%}.lazer{background:url(../images/bg-3-mobile.jpg) no-repeat;background-position:center center;background-size:cover;padding-top:20px;padding-bottom:20px}.tag_beach_tennis{top:5%;width:190px}}@media(min-width: 992px)and (max-width: 1199px){.implantacao a{width:200px}.implantacao .cta-ficha-tecnica{top:24%;right:22%}.implantacao .cta-implantacao{bottom:10%;left:14%}}.contato .container{width:300px;position:fixed;bottom:30px;right:2%;z-index:200}.contato .container .box-0{background:linear-gradient(to right, #0096d9, #004884);padding:8px;border-radius:30px}.contato .container .box-1{background-color:#fff;padding-top:15px;padding-bottom:10px;border-radius:25px}.contato .tt{margin-bottom:10px}.contato .tt p{font-family:"Futura Std";font-style:normal;font-weight:bold;color:#263685;font-size:15px;line-height:19px}.contato .group-form .form-group{padding-left:2px;padding-right:2px;margin-bottom:5px}.contato .group-form .form-control{font-family:"Futura Std";font-style:normal;font-weight:400;height:50px;padding:6px 12px 15px 0px;font-size:12px;line-height:1.42857143;color:rgba(0,0,0,.4);background-color:#fff;border-radius:0px;border-top:0px solid rgba(0,0,0,0);border-left:0px solid rgba(0,0,0,0);border-right:0px solid rgba(0,0,0,0);border-bottom:1px solid #000;box-shadow:none;text-transform:uppercase}.contato .group-form .form-control::-moz-placeholder{color:rgba(0,0,0,.4)}.contato .group-form .form-control::placeholder{color:rgba(0,0,0,.4)}.contato .group-form textarea{height:130px !important}.contato .group-form .btn_enviar{width:65%;font-family:"HelveticaNeue";padding:3px 0px;margin-bottom:0;font-size:18px;font-weight:400;line-height:1.42857143;border:3px solid #e94e1f;border-radius:20px;color:#e94e1f;background-color:#fc0;display:table;margin:20px auto 0;text-transform:uppercase}.redes{margin:40px auto 0;display:table}.redes a{display:inline-block;margin:0 3px}@media(max-width: 767px){.contato{padding-bottom:30px}.contato .container{width:90%;position:relative;top:10px;right:0%}}@media(min-width: 768px)and (max-width: 991px){.contato .container{width:500px;position:relative;top:10px;right:0%;margin-bottom:40px}}@media(min-width: 992px)and (max-width: 1199px){.contato .container{right:2%}}footer{background:url(../images/bg-4.jpg) no-repeat;background-position:center bottom;background-size:cover;padding-top:30px;padding-bottom:20px}footer .txt p{font-family:"Futura Std";font-style:normal;font-weight:normal;color:#1d1d1b;font-size:15px;line-height:20px;text-align:left;margin-bottom:20px}footer .texto-legal{margin-top:10px}footer .texto-legal p{font-family:"Futura Std";font-style:normal;font-weight:normal;color:#1d1d1b;font-size:12px;line-height:16px;text-align:left}footer .ctas{padding-top:20px;padding-bottom:20px}footer .ctas .cta-waze{margin-top:9px}footer .local{display:block;margin-top:40px;margin-bottom:30px}footer .local .showroom{border-bottom:solid 1px #263685;padding-bottom:10px;margin-bottom:10px}footer .local .showroom .visite{padding-top:10px}footer .local .showroom .visite p{font-family:"Futura Std";font-style:normal;font-weight:bold;font-size:16px;line-height:16px;text-transform:uppercase;color:#e30613;display:inline-block;vertical-align:middle}footer .local .showroom .visite span{display:inline-block;vertical-align:middle;padding-left:10px}footer .local .col-g{display:inline-table}footer .local .col-g p{font-family:"Futura Std";font-style:normal;font-weight:bold;font-size:16px;line-height:16px;text-transform:uppercase}footer .local .col-g .col-g-a p{font-weight:400;color:#595959;display:inline-block;vertical-align:middle}footer .local .col-g .col-g-b p{color:#27348b;display:inline-block;vertical-align:middle}footer .local .col-g .col-g-b span{display:inline-block;vertical-align:middle;padding-left:5px}footer .local .col-g .col-g-c p{font-weight:400;color:#595959;padding-left:5px;margin-top:5px}footer .navbar-nav li{padding-top:9px;padding-bottom:9px}footer .navbar-nav li>a{padding-top:0px;padding-bottom:0px;font-family:"Futura Std";font-style:normal;font-weight:500;color:#1d1d1b;font-size:10px;line-height:10px;border-right:1px solid #1d1d1b;text-transform:uppercase}footer .navbar-nav li>a:focus,footer .navbar-nav li>a:hover{text-decoration:underline;background-color:rgba(0,0,0,0)}footer .navbar-nav li:first-child a{padding-left:0}footer .navbar-nav li:last-child a{border-right:0px solid rgba(0,0,0,0)}@media(max-width: 767px){footer{background:#f4f4f4;padding-top:20px}footer .txt p{color:#1d1d1b;font-size:14px;line-height:22px;text-align:center}footer .ctas .cta-waze{margin-top:0px}footer .local{margin-bottom:20px;text-align:center}footer .local .col-g p{font-size:16px;line-height:22px}footer .local .col-g .col-g-b p{padding-left:0px}footer .local .col-g .col-g-c p{padding-left:0px;margin-top:0}footer .navbar-nav{margin-top:0}footer .navbar-nav li:first-child a{padding-left:15px}}@media(min-width: 768px)and (max-width: 991px){footer .local{text-align:center}}
+/* #### Generated By: http://www.cufonfonts.com #### */
+@font-face {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Futura Std Book"), url("../fonts/fonts/FuturaStdBook.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  font-style: oblique;
+  font-weight: normal;
+  src: local("Futura Std Book Oblique"), url("../fonts/FuturaStdBookOblique.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Futura Std Light"), url("../fonts/FuturaStdLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  font-style: oblique;
+  font-weight: 300;
+  src: local("Futura Std Light Oblique"), url("../fonts/FuturaStdLightOblique.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Futura Std Medium"), url("../fonts/FuturaStdMedium.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  font-style: oblique;
+  font-weight: 400;
+  src: local("Futura Std Medium Oblique"), url("../fonts/FuturaStdMediumOblique.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Futura Std Heavy"), url("../fonts/FuturaStdHeavy.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  font-style: oblique;
+  font-weight: 900;
+  src: local("Futura Std Heavy Oblique"), url("../fonts/FuturaStdHeavyOblique.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Futura Std Bold"), url("../fonts/FuturaStdBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  font-style: oblique;
+  font-weight: 500;
+  src: local("Futura Std Bold Oblique"), url("../fonts/FuturaStdBoldOblique.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Futura Std Extra Bold"), url("../fonts/FuturaStdExtraBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  font-style: oblique;
+  font-weight: 700;
+  src: local("Futura Std Extra Bold Oblique"), url("../fonts/FuturaStdExtraBoldOblique.woff") format("woff");
+}
+
+.margin-top {
+  margin-top: 10px;
+}
+
+.margin-top-5 {
+  margin-top: 5px;
+}
+
+.margin-top-15 {
+  margin-top: 15px;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.margin-top-27 {
+  margin-top: 27px;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.margin-top-40 {
+  margin-top: 40px;
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+.margin-top-54 {
+  margin-top: 54px;
+}
+
+.margin-top-60 {
+  margin-top: 60px;
+}
+
+.margin-top-65 {
+  margin-top: 65px;
+}
+
+.margin-top-70 {
+  margin-top: 70px;
+}
+
+.margin-top-80 {
+  margin-top: 80px;
+}
+
+.margin-top-90 {
+  margin-top: 90px;
+}
+
+.margin-top-99 {
+  margin-top: 99px;
+}
+
+.margin-top-100 {
+  margin-top: 100px;
+}
+
+.margin-top-110 {
+  margin-top: 110px;
+}
+
+.margin-top-120 {
+  margin-top: 120px;
+}
+
+.margin-top-140 {
+  margin-top: 140px;
+}
+
+.margin-top-149 {
+  margin-top: 149px;
+}
+
+.margin-top-150 {
+  margin-top: 150px;
+}
+
+.margin-top-160 {
+  margin-top: 160px;
+}
+
+.margin-top-200 {
+  margin-top: 200px;
+}
+
+.margin-top-220 {
+  margin-top: 220px;
+}
+
+.margin-top-230 {
+  margin-top: 230px;
+}
+
+.margin-top-250 {
+  margin-top: 250px;
+}
+
+.margin-top-330 {
+  margin-top: 330px;
+}
+
+.margin-top-350 {
+  margin-top: 350px;
+}
+
+.margin-top-380 {
+  margin-top: 380px;
+}
+
+.margin-top-385 {
+  margin-top: 385px;
+}
+
+.margin-top-390 {
+  margin-top: 390px;
+}
+
+.margin-top-400 {
+  margin-top: 400px;
+}
+
+.padding-off {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+p {
+  margin: 0;
+}
+
+.container-off-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.row-off-margin {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.aviso {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.aviso div {
+  display: table;
+  margin: 10% auto 0;
+  width: 40%;
+  background: #ce1719;
+  background: -webkit-gradient(linear, left top, right top, from(#ce1719), color-stop(49%, #f38f00), to(#ce1719));
+  background: linear-gradient(90deg, #ce1719 0%, #f38f00 49%, #ce1719 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ce1719", endColorstr="#ce1719", GradientType=1);
+  padding: 20px 10px;
+  position: relative;
+}
+
+.aviso div .close {
+  text-shadow: none;
+  opacity: 1;
+  position: absolute;
+  right: 0;
+  top: -35px;
+  z-index: 999;
+  color: #ffffff;
+  font-size: 35px;
+  line-height: 35px;
+}
+
+.aviso div p {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.667;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.aviso div .cadastre-amigos {
+  background-color: #662c91;
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.667;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.float-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+  right: 0;
+  z-index: 999;
+  bottom: 90px;
+}
+
+.float-box a {
+  width: 47px;
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0);
+  -webkit-transition: width 400ms, color 800ms;
+  transition: width 400ms, color 800ms;
+  height: 47px;
+  line-height: 27px;
+  display: block;
+  margin-bottom: 1px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.float-box a:hover {
+  width: 220px;
+  color: white;
+}
+
+.float-box .chat {
+  background: url(../images/icone-chat.png) no-repeat right 10px center;
+  background-color: rgba(0, 0, 0, 0);
+  background-color: #aca727;
+}
+
+.float-box .car {
+  background: url(../images/icone-car.png) no-repeat right 10px center;
+  background-color: rgba(0, 0, 0, 0);
+  background-color: #aca727;
+}
+
+.float-box .mail {
+  background: url(../images/icone-mail.png) no-repeat right 10px center;
+  background-color: rgba(0, 0, 0, 0);
+  background-color: #aca727;
+}
+
+.float-box .whats {
+  background: url(../images/icone-zap.png) no-repeat right 10px center;
+  background-color: rgba(0, 0, 0, 0);
+  background-color: #aca727;
+}
+
+.cookies {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  height: 100%;
+  top: 0;
+  display: none;
+}
+
+.cookies .box {
+  background: #ce1719;
+  background: -webkit-gradient(linear, left top, right top, from(#ce1719), color-stop(49%, #f38f00), to(#ce1719));
+  background: linear-gradient(90deg, #ce1719 0%, #f38f00 49%, #ce1719 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ce1719", endColorstr="#ce1719", GradientType=1);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  bottom: 20px;
+  border-radius: 20px;
+}
+
+.cookies .box p {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 7px;
+}
+
+.cookies .box p a {
+  text-decoration: underline;
+  color: #000000;
+}
+
+.cookies .box .btn_cookie {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 19px;
+  color: #ffffff;
+  border: 0px solid transparent;
+  border-radius: 50px;
+  padding: 12px 30px;
+  width: 160px;
+  margin-top: 7px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: #12c712;
+  letter-spacing: 1px;
+}
+
+.modalFichaTecnica,
+.modalImplantacao,
+.modalLocalizacao,
+.modalVideo,
+.modalVideo2 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalFichaTecnica .modal-content,
+.modalImplantacao .modal-content,
+.modalLocalizacao .modal-content,
+.modalVideo .modal-content,
+.modalVideo2 .modal-content {
+  background-color: #ffcb00;
+  border: 0px solid transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.modalFichaTecnica .modal-body,
+.modalImplantacao .modal-body,
+.modalLocalizacao .modal-body,
+.modalVideo .modal-body,
+.modalVideo2 .modal-body {
+  padding: 8px;
+}
+
+.modalFichaTecnica .close,
+.modalImplantacao .close,
+.modalLocalizacao .close,
+.modalVideo .close,
+.modalVideo2 .close {
+  font-size: 27px;
+  color: #fff;
+  text-shadow: none;
+  opacity: 1;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  z-index: 100;
+}
+
+.modalTagBeachTennis {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalTagBeachTennis .modal-content {
+  border: 0px solid transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.modalTagBeachTennis .modal-body {
+  padding: 0px;
+  width: 100%;
+  position: relative;
+  float: left;
+  background: #ffffff;
+  border-radius: 35px;
+  border: 7px solid #ee7d00;
+}
+
+.modalTagBeachTennis .heade_tag {
+  padding-top: 20px;
+}
+
+.modalTagBeachTennis .heade_tag img {
+  margin-bottom: -24px;
+  z-index: 100;
+  position: relative;
+}
+
+.modalTagBeachTennis .box {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  background: #63358b;
+  -webkit-border-bottom-right-radius: 28px;
+  -webkit-border-bottom-left-radius: 28px;
+  -moz-border-radius-bottomright: 28px;
+  -moz-border-radius-bottomleft: 28px;
+  border-bottom-right-radius: 28px;
+  border-bottom-left-radius: 28px;
+}
+
+.modalTagBeachTennis .close {
+  font-size: 27px;
+  color: #fff;
+  text-shadow: none;
+  opacity: 1;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  z-index: 100;
+}
+
+.modalTagBeachTennis .group-form .form-group {
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-bottom: 5px;
+}
+
+.modalTagBeachTennis .group-form .form-control {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: 400;
+  height: 47px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #6f6f6e;
+  background-color: #ffffff;
+  border-radius: 35px;
+  border: 2px solid #ee7d00;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.modalTagBeachTennis .group-form .form-control::-webkit-input-placeholder {
+  color: #6f6f6e;
+}
+
+.modalTagBeachTennis .group-form .form-control:-ms-input-placeholder {
+  color: #6f6f6e;
+}
+
+.modalTagBeachTennis .group-form .form-control::-ms-input-placeholder {
+  color: #6f6f6e;
+}
+
+.modalTagBeachTennis .group-form .form-control::placeholder {
+  color: #6f6f6e;
+}
+
+.modalTagBeachTennis .group-form textarea {
+  padding-top: 20px !important;
+  height: 130px !important;
+}
+
+.modalTagBeachTennis .group-form .bbtn_enviar {
+  width: 100%;
+  font-family: 'HelveticaNeue';
+  padding: 8px 20px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  border: 0px solid transparent;
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: #ee7d00;
+  display: table;
+  margin: 5px auto 0;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .modalFichaTecnica .modal-dialog,
+  .modalImplantacao .modal-dialog,
+  .modalLocalizacao .modal-dialog,
+  .modalVideo .modal-dialog,
+  .modalVideo2 .modal-dialog,
+  .modalTagBeachTennis .modal-dialog {
+    margin: 4% auto 0;
+  }
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .aviso div {
+    margin: 30% auto 0;
+    width: 95%;
+  }
+  .padding-off-mobile {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .float-box {
+    bottom: 30%;
+  }
+  .cookies .box {
+    padding-top: 10px;
+  }
+  .cookies .box .btn_cookie {
+    margin-top: 20px;
+  }
+  .modalFichaTecnica .modal-dialog,
+  .modalImplantacao .modal-dialog,
+  .modalLocalizacao .modal-dialog,
+  .modalVideo .modal-dialog,
+  .modalVideo2 .modal-dialog,
+  .modalTagBeachTennis .modal-dialog {
+    margin: 20% auto 0;
+  }
+  .modalFichaTecnica .close,
+  .modalImplantacao .close,
+  .modalLocalizacao .close,
+  .modalVideo .close,
+  .modalVideo2 .close,
+  .modalTagBeachTennis .close {
+    top: -30px;
+    right: 5px;
+  }
+  .modalTagBeachTennis .heade_tag {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .modalTagBeachTennis .heade_tag img {
+    max-width: 80%;
+  }
+  .modalTagBeachTennis .tag_txt img {
+    max-width: 80%;
+  }
+  .modalTagBeachTennis .box {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .modalTagBeachTennis form {
+    margin-top: 20px;
+  }
+  .modalTagBeachTennis .group-form .form-control {
+    height: 40px;
+    padding: 6px 12px;
+  }
+  .modalTagBeachTennis .group-form textarea {
+    padding-top: 20px !important;
+    height: 110px !important;
+  }
+}
+
+.menu.active {
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.menu.active .nav > li > a {
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.menu {
+  position: fixed;
+  width: 100%;
+  float: left;
+  top: 20px;
+  left: 0;
+  z-index: 600;
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 0px;
+  min-height: auto;
+  margin-bottom: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.menu .navbar-collapse,
+.menu .navbar-form {
+  border-color: transparent;
+}
+
+.menu .nav > li {
+  padding: 10px 15px;
+}
+
+.menu .nav > li > a {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 0;
+  letter-spacing: 3px;
+}
+
+.menu .nav > li > a::before {
+  width: 25px;
+  height: 2px;
+  content: '';
+  position: absolute;
+  right: 3px;
+  background-color: #ff9e00;
+  font-size: 30px;
+  bottom: -5px;
+}
+
+.menu .navbar-nav > li > a:focus,
+.menu .navbar-nav > li > a:hover {
+  color: #ffffff;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .menu {
+    top: 0;
+    background-color: transparent !important;
+  }
+  .menu .navbar-brand {
+    margin-left: 5px;
+  }
+  .menu .navbar-nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .menu .nav > li {
+    padding: 15px 15px;
+  }
+  .menu .nav > li > a {
+    font-size: 12px;
+    line-height: 12px;
+    padding-left: 0px;
+    color: #ffffff;
+    margin-bottom: 0px;
+  }
+  .menu .nav > li > a::before {
+    left: 3px;
+  }
+  .menu .navbar-toggle {
+    margin-top: 7px;
+    margin-right: 5px;
+    border-color: #000;
+    margin-bottom: 0;
+  }
+  .menu .navbar-collapse {
+    border-top: 0px solid transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .menu .navbar-toggle .icon-bar {
+    background-color: #000;
+  }
+  .menu .navbar-toggle:focus,
+  .menu .navbar-toggle:hover {
+    background-color: transparent;
+  }
+  .menu .navbar-collapse,
+  .menu .navbar-form {
+    border-color: transparent;
+  }
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu .nav > li > a {
+    font-size: 10px;
+    line-height: 10px;
+  }
+}
+
+/* Medium */
+/* Large */
+.home {
+  background: url(../images/fundo-laranja_superior.jpg) no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding-top: 90px;
+  position: relative;
+}
+
+.home .galeria {
+  margin-bottom: -5px;
+}
+
+.home #highlightInfos {
+  position: absolute;
+  left: 0;
+  bottom: 5%;
+}
+
+.home #highlightInfos .anchor {
+  width: 170px;
+  background-color: #283583;
+  border-top: 3px solid #ffff00;
+  border-bottom: 3px solid #ffff00;
+  border-right: 3px solid #ffff00;
+  margin-bottom: 4px;
+  -webkit-border-top-right-radius: 40px;
+  -webkit-border-bottom-right-radius: 40px;
+  -moz-border-radius-topright: 40px;
+  -moz-border-radius-bottomright: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  padding: 8px 10px 12px 30px;
+  display: table;
+}
+
+.home #highlightInfos .anchor img {
+  float: right;
+}
+
+.home #highlightInfos .highlight {
+  width: 250px;
+  padding: 8px 20px 12px 50px;
+}
+
+.home .box-clique {
+  position: absolute;
+  right: 3%;
+  top: 13%;
+  width: 280px;
+}
+
+.home .box-clique .img-clique {
+  padding: 8px;
+}
+
+.faixa-azul,
+.faixa-vermelho,
+.faixa-verde,
+.faixa-roxo {
+  padding-bottom: 18px;
+  padding-top: 18px;
+}
+
+.faixa-azul p,
+.faixa-vermelho p,
+.faixa-verde p,
+.faixa-roxo p {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.faixa-azul {
+  background: #263684;
+  background: -webkit-gradient(linear, left top, right top, from(#263684), color-stop(49%, #008ad0), to(#263684));
+  background: linear-gradient(90deg, #263684 0%, #008ad0 49%, #263684 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#263684", endColorstr="#263684", GradientType=1);
+}
+
+.faixa-vermelho {
+  background: #ce1719;
+  background: -webkit-gradient(linear, left top, right top, from(#ce1719), color-stop(49%, #f38f00), to(#ce1719));
+  background: linear-gradient(90deg, #ce1719 0%, #f38f00 49%, #ce1719 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ce1719", endColorstr="#ce1719", GradientType=1);
+}
+
+.faixa-verde {
+  background: #00570e;
+  background: -webkit-gradient(linear, left top, right top, from(#00570e), color-stop(49%, #00bd00), to(#00570e));
+  background: linear-gradient(90deg, #00570e 0%, #00bd00 49%, #00570e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00570e", endColorstr="#00570e", GradientType=1);
+}
+
+.faixa-roxo {
+  background: #672583;
+  background: -webkit-gradient(linear, left top, right top, from(#672583), color-stop(49%, #b6599e), to(#672583));
+  background: linear-gradient(90deg, #672583 0%, #b6599e 49%, #672583 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#672583", endColorstr="#672583", GradientType=1);
+}
+
+.hits {
+  background: url(../images/bg-1.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.hits p {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: normal;
+  color: #636362;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: right;
+}
+
+.projeto {
+  background: url(../images/bg-2.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.projeto .galeria {
+  position: relative;
+  z-index: 100;
+  margin-bottom: -30px;
+}
+
+.projeto .portaria img {
+  float: right;
+}
+
+.projeto .video {
+  padding-top: 20px;
+}
+
+.implantacao {
+  background: url(../images/bg-5.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.implantacao .cta-ficha-tecnica {
+  top: 24%;
+  right: 26%;
+  position: absolute;
+}
+
+.implantacao .cta-implantacao {
+  bottom: 10%;
+  left: 20%;
+  position: absolute;
+}
+
+.lazer {
+  background: url(../images/bg-3.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.lazer .galeria {
+  position: relative;
+  z-index: 100;
+}
+
+.lazer .thumb-lazer {
+  margin-bottom: 30px;
+}
+
+.tag_beach_tennis {
+  position: fixed;
+  top: 20%;
+  left: 0;
+  z-index: 200;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .home {
+    background: url(../images/fundo-laranja_superior-mobile.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 10px;
+  }
+  .home .galeria {
+    margin-bottom: -6px;
+  }
+  .home #highlightInfos {
+    bottom: 1%;
+    z-index: 10;
+  }
+  .home #highlightInfos .anchor {
+    width: 110px;
+    margin-bottom: 2px;
+    padding: 4px 10px 6px 10px;
+  }
+  .home #highlightInfos .highlight {
+    width: 140px;
+    padding: 4px 10px 6px 10px;
+  }
+  .home .box-clique {
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .home .box-clique img {
+    max-width: 70%;
+  }
+  .home .box-clique .img-clique {
+    padding: 5px;
+  }
+  .faixa-azul,
+  .faixa-vermelho,
+  .faixa-verde,
+  .faixa-roxo {
+    padding-bottom: 13px;
+    padding-top: 15px;
+  }
+  .faixa-azul p,
+  .faixa-vermelho p,
+  .faixa-verde p,
+  .faixa-roxo p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .hits {
+    background: url(../images/bg-1-mobile.jpg) no-repeat;
+    background-position: center top;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .hits p {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .projeto {
+    background: url(../images/bg-2-mobile.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .projeto .galeria {
+    margin-bottom: 10px;
+  }
+  .implantacao {
+    background: url(../images/bg-5-mobile.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .implantacao a {
+    width: 150px;
+  }
+  .implantacao .cta-ficha-tecnica {
+    top: 24%;
+    right: 22%;
+  }
+  .implantacao .cta-implantacao {
+    bottom: 10%;
+    left: 14%;
+  }
+  .lazer {
+    background: url(../images/bg-3-mobile.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .tag_beach_tennis {
+    top: 5%;
+    width: 190px;
+  }
+}
+
+/* Small */
+/* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .implantacao a {
+    width: 200px;
+  }
+  .implantacao .cta-ficha-tecnica {
+    top: 24%;
+    right: 22%;
+  }
+  .implantacao .cta-implantacao {
+    bottom: 10%;
+    left: 14%;
+  }
+}
+
+/* Large */
+.contato .container {
+  width: 300px;
+  position: fixed;
+  bottom: 10px;
+  right: 2%;
+  z-index: 200;
+}
+
+.contato .container .box-0 {
+  background: -webkit-gradient(linear, left top, right top, from(#0096d9), to(#004884));
+  background: linear-gradient(to right, #0096d9, #004884);
+  padding: 8px;
+  border-radius: 30px;
+}
+
+.contato .container .box-1 {
+  background-color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+}
+
+.contato .tt {
+  margin-bottom: 10px;
+}
+
+.contato .tt p {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: bold;
+  color: #263685;
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.contato .group-form .form-group {
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-bottom: 5px;
+}
+
+.contato .group-form .form-control {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: 400;
+  height: 50px;
+  padding: 6px 12px 15px 0px;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: rgba(0, 0, 0, 0.4);
+  background-color: #ffffff;
+  border-radius: 0px;
+  border-top: 0px solid transparent;
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 1px solid #000000;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-transform: uppercase;
+}
+
+.contato .group-form .form-control::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.contato .group-form .form-control:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.contato .group-form .form-control::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.contato .group-form .form-control::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.contato .group-form textarea {
+  height: 130px !important;
+}
+
+.contato .group-form .btn_enviar {
+  width: 65%;
+  font-family: 'HelveticaNeue';
+  padding: 3px 0px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  border: 3px solid #e94e1f;
+  border-radius: 20px;
+  color: #e94e1f;
+  background-color: #ffcc00;
+  display: table;
+  margin: 20px auto 0;
+  text-transform: uppercase;
+}
+
+.redes {
+  margin: 10px auto 0;
+  display: table;
+}
+
+.redes a {
+  display: inline-block;
+  margin: 0 3px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .contato {
+    padding-bottom: 30px;
+  }
+  .contato .container {
+    width: 90%;
+    position: relative;
+    top: 10px;
+    right: 0%;
+  }
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  .contato .container {
+    width: 500px;
+    position: relative;
+    top: 10px;
+    right: 0%;
+    margin-bottom: 40px;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .contato .container {
+    right: 2%;
+  }
+}
+
+/* Large */
+footer {
+  background: url(../images/bg-4.jpg) no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+footer .txt p {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: normal;
+  color: #1d1d1b;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+footer .texto-legal {
+  margin-top: 10px;
+}
+
+footer .texto-legal p {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: normal;
+  color: #1d1d1b;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+}
+
+footer .ctas {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer .ctas .cta-waze {
+  margin-top: 9px;
+}
+
+footer .local {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+footer .local .showroom {
+  border-bottom: solid 1px #263685;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+footer .local .showroom .visite {
+  padding-top: 10px;
+}
+
+footer .local .showroom .visite p {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #e30613;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer .local .showroom .visite span {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+footer .local .col-g {
+  display: inline-table;
+}
+
+footer .local .col-g p {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+footer .local .col-g .col-g-a p {
+  font-weight: 400;
+  color: #595959;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer .local .col-g .col-g-b p {
+  color: #27348b;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer .local .col-g .col-g-b span {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5px;
+}
+
+footer .local .col-g .col-g-c p {
+  font-weight: 400;
+  color: #595959;
+  padding-left: 5px;
+  margin-top: 5px;
+}
+
+footer .navbar-nav li {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+footer .navbar-nav li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: 500;
+  color: #1d1d1b;
+  font-size: 10px;
+  line-height: 10px;
+  border-right: 1px solid #1d1d1b;
+  text-transform: uppercase;
+}
+
+footer .navbar-nav li > a:focus,
+footer .navbar-nav li > a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+footer .navbar-nav li:first-child a {
+  padding-left: 0;
+}
+
+footer .navbar-nav li:last-child a {
+  border-right: 0px solid transparent;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  footer {
+    background: #f4f4f4;
+    padding-top: 20px;
+  }
+  footer .txt p {
+    color: #1d1d1b;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  footer .ctas .cta-waze {
+    margin-top: 0px;
+  }
+  footer .local {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  footer .local .col-g p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  footer .local .col-g .col-g-b p {
+    padding-left: 0px;
+  }
+  footer .local .col-g .col-g-c p {
+    padding-left: 0px;
+    margin-top: 0;
+  }
+  footer .navbar-nav {
+    margin-top: 0;
+  }
+  footer .navbar-nav li:first-child a {
+    padding-left: 15px;
+  }
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  footer .local {
+    text-align: center;
+  }
+}
+
+/* Medium */
+/* Large */
+/*# sourceMappingURL=style.css.map */

@@ -41,19 +41,17 @@
         }
     }
 
-    .video {
+    .box-clique {
         position: absolute;
         right: 3%;
         top: 13%;
         width: 280px;
+
+        .img-clique {
+            padding: 8px;
+        }
     }
 
-    .obra {
-        position: absolute;
-        right: 3%;
-        top: 25%;
-        width: 280px;
-    }
 }
 
 .faixa-azul,
@@ -220,28 +218,23 @@
             }
         }
 
-        .video {
+        .box-clique {
             position: relative;
             right: 0;
             top: 0;
             width: 100%;
-            padding-top: 15px;
-            padding-bottom: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
             img {
                 max-width: 70%;
+            }
+
+            .img-clique {
+                padding: 5px;
             }
         }
         
-        .obra {
-            position: relative;
-            right: 0;
-            top: 0;
-            width: 100%;
-            padding-bottom: 15px;
-            img {
-                max-width: 70%;
-            }
-        }
+        
     }
 
     .faixa-azul,

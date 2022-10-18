@@ -1,1 +1,309 @@
-.home{background:url(../images/fundo-laranja_superior.jpg) no-repeat;background-position:center top;background-size:cover;padding-top:90px;position:relative}.home .galeria{margin-bottom:-5px}.home #highlightInfos{position:absolute;left:0;bottom:5%}.home #highlightInfos .anchor{width:170px;background-color:#283583;border-top:3px solid #ff0;border-bottom:3px solid #ff0;border-right:3px solid #ff0;margin-bottom:4px;-webkit-border-top-right-radius:40px;-webkit-border-bottom-right-radius:40px;-moz-border-radius-topright:40px;-moz-border-radius-bottomright:40px;border-top-right-radius:40px;border-bottom-right-radius:40px;padding:8px 10px 12px 30px;display:table}.home #highlightInfos .anchor img{float:right}.home #highlightInfos .highlight{width:250px;padding:8px 20px 12px 50px}.home .video{position:absolute;right:3%;top:13%;width:280px}.home .obra{position:absolute;right:3%;top:25%;width:280px}.faixa-azul,.faixa-vermelho,.faixa-verde,.faixa-roxo{padding-bottom:18px;padding-top:18px}.faixa-azul p,.faixa-vermelho p,.faixa-verde p,.faixa-roxo p{font-family:"Futura Std";font-style:normal;font-weight:900;font-size:20px;line-height:25px;color:#fff;text-transform:uppercase;letter-spacing:5px}.faixa-azul{background:#263684;background:linear-gradient(90deg, rgb(38, 54, 132) 0%, rgb(0, 138, 208) 49%, rgb(38, 54, 132) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#263684", endColorstr="#263684", GradientType=1)}.faixa-vermelho{background:#ce1719;background:linear-gradient(90deg, rgb(206, 23, 25) 0%, rgb(243, 143, 0) 49%, rgb(206, 23, 25) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ce1719", endColorstr="#ce1719", GradientType=1)}.faixa-verde{background:#00570e;background:linear-gradient(90deg, rgb(0, 87, 14) 0%, rgb(0, 189, 0) 49%, rgb(0, 87, 14) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#00570e", endColorstr="#00570e", GradientType=1)}.faixa-roxo{background:#672583;background:linear-gradient(90deg, rgb(103, 37, 131) 0%, rgb(182, 89, 158) 49%, rgb(103, 37, 131) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#672583", endColorstr="#672583", GradientType=1)}.hits{background:url(../images/bg-1.jpg) no-repeat;background-position:center center;background-size:cover;padding-top:20px;padding-bottom:20px}.hits p{font-family:"Futura Std";font-style:normal;font-weight:normal;color:#636362;font-size:16px;line-height:25px;text-align:right}.projeto{background:url(../images/bg-2.jpg) no-repeat;background-position:center center;background-size:cover;padding-top:20px;padding-bottom:20px}.projeto .galeria{position:relative;z-index:100;margin-bottom:-30px}.projeto .portaria img{float:right}.projeto .video{padding-top:20px}.implantacao{background:url(../images/bg-5.jpg) no-repeat;background-position:center center;background-size:cover}.implantacao .cta-ficha-tecnica{top:24%;right:26%;position:absolute}.implantacao .cta-implantacao{bottom:10%;left:20%;position:absolute}.lazer{background:url(../images/bg-3.jpg) no-repeat;background-position:center center;background-size:cover;padding-top:20px;padding-bottom:20px}.lazer .galeria{position:relative;z-index:100}.lazer .thumb-lazer{margin-bottom:30px}.tag_beach_tennis{position:fixed;top:20%;left:0;z-index:200}@media(max-width: 767px){.home{background:url(../images/fundo-laranja_superior-mobile.jpg) no-repeat;background-position:center center;background-size:cover;padding-top:10px}.home .galeria{margin-bottom:-6px}.home #highlightInfos{bottom:1%;z-index:10}.home #highlightInfos .anchor{width:110px;margin-bottom:2px;padding:4px 10px 6px 10px}.home #highlightInfos .highlight{width:140px;padding:4px 10px 6px 10px}.home .video{position:relative;right:0;top:0;width:100%;padding-top:15px;padding-bottom:15px}.home .video img{max-width:70%}.home .obra{position:relative;right:0;top:0;width:100%;padding-bottom:15px}.home .obra img{max-width:70%}.faixa-azul,.faixa-vermelho,.faixa-verde,.faixa-roxo{padding-bottom:13px;padding-top:15px}.faixa-azul p,.faixa-vermelho p,.faixa-verde p,.faixa-roxo p{font-size:13px;line-height:20px}.hits{background:url(../images/bg-1-mobile.jpg) no-repeat;background-position:center top;background-size:cover;padding-top:20px;padding-bottom:20px}.hits p{font-size:14px;line-height:22px;text-align:center;margin-bottom:20px}.projeto{background:url(../images/bg-2-mobile.jpg) no-repeat;background-position:center center;background-size:cover;padding-top:20px;padding-bottom:20px}.projeto .galeria{margin-bottom:10px}.implantacao{background:url(../images/bg-5-mobile.jpg) no-repeat;background-position:center center;background-size:cover}.implantacao a{width:150px}.implantacao .cta-ficha-tecnica{top:24%;right:22%}.implantacao .cta-implantacao{bottom:10%;left:14%}.lazer{background:url(../images/bg-3-mobile.jpg) no-repeat;background-position:center center;background-size:cover;padding-top:20px;padding-bottom:20px}.tag_beach_tennis{top:5%;width:190px}}@media(min-width: 992px)and (max-width: 1199px){.implantacao a{width:200px}.implantacao .cta-ficha-tecnica{top:24%;right:22%}.implantacao .cta-implantacao{bottom:10%;left:14%}}
+.home {
+  background: url(../images/fundo-laranja_superior.jpg) no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding-top: 90px;
+  position: relative;
+}
+
+.home .galeria {
+  margin-bottom: -5px;
+}
+
+.home #highlightInfos {
+  position: absolute;
+  left: 0;
+  bottom: 5%;
+}
+
+.home #highlightInfos .anchor {
+  width: 170px;
+  background-color: #283583;
+  border-top: 3px solid #ffff00;
+  border-bottom: 3px solid #ffff00;
+  border-right: 3px solid #ffff00;
+  margin-bottom: 4px;
+  -webkit-border-top-right-radius: 40px;
+  -webkit-border-bottom-right-radius: 40px;
+  -moz-border-radius-topright: 40px;
+  -moz-border-radius-bottomright: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  padding: 8px 10px 12px 30px;
+  display: table;
+}
+
+.home #highlightInfos .anchor img {
+  float: right;
+}
+
+.home #highlightInfos .highlight {
+  width: 250px;
+  padding: 8px 20px 12px 50px;
+}
+
+.home .box-clique {
+  position: absolute;
+  right: 3%;
+  top: 13%;
+  width: 280px;
+}
+
+.home .box-clique .img-clique {
+  padding: 8px;
+}
+
+.faixa-azul,
+.faixa-vermelho,
+.faixa-verde,
+.faixa-roxo {
+  padding-bottom: 18px;
+  padding-top: 18px;
+}
+
+.faixa-azul p,
+.faixa-vermelho p,
+.faixa-verde p,
+.faixa-roxo p {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.faixa-azul {
+  background: #263684;
+  background: -webkit-gradient(linear, left top, right top, from(#263684), color-stop(49%, #008ad0), to(#263684));
+  background: linear-gradient(90deg, #263684 0%, #008ad0 49%, #263684 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#263684", endColorstr="#263684", GradientType=1);
+}
+
+.faixa-vermelho {
+  background: #ce1719;
+  background: -webkit-gradient(linear, left top, right top, from(#ce1719), color-stop(49%, #f38f00), to(#ce1719));
+  background: linear-gradient(90deg, #ce1719 0%, #f38f00 49%, #ce1719 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ce1719", endColorstr="#ce1719", GradientType=1);
+}
+
+.faixa-verde {
+  background: #00570e;
+  background: -webkit-gradient(linear, left top, right top, from(#00570e), color-stop(49%, #00bd00), to(#00570e));
+  background: linear-gradient(90deg, #00570e 0%, #00bd00 49%, #00570e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00570e", endColorstr="#00570e", GradientType=1);
+}
+
+.faixa-roxo {
+  background: #672583;
+  background: -webkit-gradient(linear, left top, right top, from(#672583), color-stop(49%, #b6599e), to(#672583));
+  background: linear-gradient(90deg, #672583 0%, #b6599e 49%, #672583 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#672583", endColorstr="#672583", GradientType=1);
+}
+
+.hits {
+  background: url(../images/bg-1.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.hits p {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: normal;
+  color: #636362;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: right;
+}
+
+.projeto {
+  background: url(../images/bg-2.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.projeto .galeria {
+  position: relative;
+  z-index: 100;
+  margin-bottom: -30px;
+}
+
+.projeto .portaria img {
+  float: right;
+}
+
+.projeto .video {
+  padding-top: 20px;
+}
+
+.implantacao {
+  background: url(../images/bg-5.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.implantacao .cta-ficha-tecnica {
+  top: 24%;
+  right: 26%;
+  position: absolute;
+}
+
+.implantacao .cta-implantacao {
+  bottom: 10%;
+  left: 20%;
+  position: absolute;
+}
+
+.lazer {
+  background: url(../images/bg-3.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.lazer .galeria {
+  position: relative;
+  z-index: 100;
+}
+
+.lazer .thumb-lazer {
+  margin-bottom: 30px;
+}
+
+.tag_beach_tennis {
+  position: fixed;
+  top: 20%;
+  left: 0;
+  z-index: 200;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .home {
+    background: url(../images/fundo-laranja_superior-mobile.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 10px;
+  }
+  .home .galeria {
+    margin-bottom: -6px;
+  }
+  .home #highlightInfos {
+    bottom: 1%;
+    z-index: 10;
+  }
+  .home #highlightInfos .anchor {
+    width: 110px;
+    margin-bottom: 2px;
+    padding: 4px 10px 6px 10px;
+  }
+  .home #highlightInfos .highlight {
+    width: 140px;
+    padding: 4px 10px 6px 10px;
+  }
+  .home .box-clique {
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .home .box-clique img {
+    max-width: 70%;
+  }
+  .home .box-clique .img-clique {
+    padding: 5px;
+  }
+  .faixa-azul,
+  .faixa-vermelho,
+  .faixa-verde,
+  .faixa-roxo {
+    padding-bottom: 13px;
+    padding-top: 15px;
+  }
+  .faixa-azul p,
+  .faixa-vermelho p,
+  .faixa-verde p,
+  .faixa-roxo p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .hits {
+    background: url(../images/bg-1-mobile.jpg) no-repeat;
+    background-position: center top;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .hits p {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .projeto {
+    background: url(../images/bg-2-mobile.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .projeto .galeria {
+    margin-bottom: 10px;
+  }
+  .implantacao {
+    background: url(../images/bg-5-mobile.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .implantacao a {
+    width: 150px;
+  }
+  .implantacao .cta-ficha-tecnica {
+    top: 24%;
+    right: 22%;
+  }
+  .implantacao .cta-implantacao {
+    bottom: 10%;
+    left: 14%;
+  }
+  .lazer {
+    background: url(../images/bg-3-mobile.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .tag_beach_tennis {
+    top: 5%;
+    width: 190px;
+  }
+}
+
+/* Small */
+/* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .implantacao a {
+    width: 200px;
+  }
+  .implantacao .cta-ficha-tecnica {
+    top: 24%;
+    right: 22%;
+  }
+  .implantacao .cta-implantacao {
+    bottom: 10%;
+    left: 14%;
+  }
+}
+
+/* Large */
+/*# sourceMappingURL=home.css.map */
